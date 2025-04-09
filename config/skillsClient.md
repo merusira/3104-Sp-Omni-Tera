@@ -6,19 +6,30 @@ This document explains the organization of skill files in the `skills_client` di
 
 The `skills_client` directory contains JSON files that were split from the main `skills_client.json` file. Each file represents a specific combination of race and class, with the file name indicating which race and class it belongs to.
 
-### The skills_client.js Implementation
+### The skills-loader.js Implementation
 
-The `skills_client.js` file handles the loading and merging of skill data files:
+The `skills-loader.js` file is responsible for generating the `skills_client.json` file that combines the common skills with race/class specific skills:
 
-1. **Dynamic Loading**: It loads both the common skills file (`9999.json`) and the race/class specific file (e.g., `10101.json`) when needed.
+1. **When it's called**:
+   - It's called from player.js when a player logs in: `generateSkillsClientJson(event.templateId)`
+   - It's also called when changing zones or returning to the lobby
 
-2. **Memory Efficiency**: When a player switches characters (different templateId), it clears all caches to prevent memory accumulation.
+2. **How it works**:
+   - It loads the common skills file (9999.json) using `loadSkillFile(9999)`
+   - It loads the race/class specific file (e.g., 10101.json) using `loadSkillFile(templateId)`
+   - It creates a merged object that contains:
+     - The common skills under the key `9999`
+     - The race/class specific skills under the key matching the templateId
+     - For the race/class specific skills, it first copies all skills from the common skills
+     - Then it overrides any common skills with the same ID from the race/class specific file
+   - It saves this merged object as `skills_client.json` using `fs.writeFileSync()`
 
-3. **Performance Caching**: While a player is using a single character, it caches the loaded files and merged skills for better performance.
+3. **How it's used**:
+   - The core.js file loads the generated `skills_client.json` file
+   - It clears the Node.js module cache before loading to ensure it gets the latest version
+   - It accesses the data using the `get` function, e.g., `get(skillsClient, player.templateId, skill.id, 'category')`
 
-4. **Skill Merging**: It combines the common skills with race/class specific skills, with race/class specific skills taking precedence in case of duplicates.
-
-This implementation ensures efficient memory usage while still providing good performance through appropriate caching. It's a balance between simplicity and efficiency that only loads the necessary data for the current character.
+This approach ensures that only the necessary skill files are loaded (9999.json and the race/class specific file), reducing memory usage while maintaining performance.
 
 ## File Naming Convention
 
