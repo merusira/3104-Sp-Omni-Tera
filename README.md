@@ -1,88 +1,154 @@
-### This is not SaltyMonkey's SP
-This is just a fork of Pinkie Pie's original SP, ported over to be compatible with Caali's tera-proxy.  
-Modified by HSDN and others, and then ported over and heavily modified again, by merusira, to be compatible with
-patch 31.04, hosted by private server: Omni.  
+# Skill Prediction for TERA
 
-## Skill Prediction
-Simulates skills client-side, eliminating ping-based delays and animation lock.
+A module for TERA Toolbox that simulates skills client-side, eliminating ping-based delays and animation locks. This module significantly improves the gameplay experience for players with higher latency by predicting skill execution locally before server confirmation.
 
-**Note**: Skill Prediction does **not** reduce your actual ping to the server. If you wish to have lower ping in general, consider renting an optimized gaming VPN such as [Mudfish](https://mudfish.net/), [Pingzapper](https://pingzapper.com/) or [WTFast](https://www.wtfast.com/).
+## Overview
 
-### Troubleshooting
-#### Delayed skills:
-* Disable **[Windows Defender](https://www.windowscentral.com/how-permanently-disable-windows-defender-windows-10)** and **[Windows 10 Game Mode](https://www.windowscentral.com/how-enable-disable-game-mode-windows-10-creators-update)**.
+Skill Prediction works by:
+- Intercepting skill usage packets sent to the server
+- Simulating the skill execution locally on the client
+- Handling server responses to maintain synchronization
+- Adjusting for network conditions automatically
 
-#### Ghosting / Disconnects over unstable WiFi:
-* Edit change the following settings:
-```
-"skills": {
-	"retryCount": 1,
-	"retryMs": 60,
-},
-"ping": {
-	"interval": 3000,
-}
-```
+This creates a more responsive gameplay experience regardless of your connection quality to the game servers.
 
-## Developers
-### config/skills.js
-This file contains skill data specific to skill-prediction. The basic structure is as follows:
-* `classId` -> `skillGroup` -> `skillSub` -> `skillData` **OR**
-* `classId` -> `skillGroup` -> `'*'` -> `skillData` **OR**
-* `classId` -> `'*'` -> `skillData` **OR**
-* `'*'` -> `skillId` -> `skillData`
+## Important Note
 
-`skillGroup` and `skillSub` are derived from the skill ID, which tends to follow a pattern for player skills:
+Skill Prediction does **not** reduce your actual ping to the server. It only mitigates the effects of high ping on skill execution and animation locks. If you wish to have lower ping in general, consider using a gaming VPN service such as:
+- [Mudfish](https://mudfish.net/)
+- [Pingzapper](https://pingzapper.com/)
+- [WTFast](https://www.wtfast.com/)
+
+## Features
+
+- Eliminates ping-based delays in skill execution
+- Removes animation locks caused by network latency
+- Automatically adjusts to your connection quality
+- Provides accurate ping measurement
+- Includes debugging tools for troubleshooting
+
+## Commands
+
+Use these commands in-game to control the module:
+
+- `/8 sp` - Shows available commands
+- `/8 sp ping` - Displays ping statistics
+- `/8 sp debug` - Toggles skill debugging
+- `/8 sp debug loc` - Toggles location debugging
+- `/8 sp debug abnormal` - Toggles abnormality debugging
+
+## Configuration
+
+The module can be configured through the `settings.json` file, which includes options for:
+- Skill prediction behavior
+- Ping measurement settings
+- Debug options
+
+## History
+
+This module has a rich history in the TERA modding community:
+- Originally created by Pinkie Pie
+- Forked and maintained by various contributors over time
+- This version was tailored to patch 31.04 by merusira
+- Currently maintained as a Toolbox-compatible module
+
+## For Developers
+
+### Skill Data Structure
+
+The `config/skills.js` file contains skill data specific to skill-prediction. The basic structure follows:
+* `classId` → `skillGroup` → `skillSub` → `skillData` **OR**
+* `classId` → `skillGroup` → `'*'` → `skillData` **OR**
+* `classId` → `'*'` → `skillData` **OR**
+* `'*'` → `skillId` → `skillData`
+
+`skillGroup` and `skillSub` are derived from the skill ID, which follows this pattern for player skills:
 * **XXYYZZ** where **X** = `skillGroup`, **Y** = `skillLevel`, **Z** = `skillSub`
 
-`skillData` is an object containing one or more of the following properties, or a truthy value such as `true` to inherit defaults:
-* **type**: SP-specific skill type, one of the following:
-* * `'hold'`: Temporarily-held skills (Corruption Ring).
-* * `'holdInfinite'`: Infinitely-held skills (Stand Fast, Axe Block, etc.).
-* * `'dash'`: Fixed-speed dash using S_INSTANT_DASH.
-* * `'teleport'`: Fixed-distance teleport using S_INSTANT_MOVE.
-* * `'lockon'`
-* * `'lockonCast'`
-* * `'userProjectile'`: Client-sided projectile (not a skill).
-* **fixedSpeed** (boolean): Ignore attack speed.
-* **length**: The skill animation length before taking into account speed multipliers.
-* **distance**: The distance the skill moves the player in the direction it's facing.
-* **moveDir**: Distance rotation in half-turns (default 0).
-* **noInterrupt** (array): A list of skills that cannot be interrupted by this skill. Each entry can be either `skillGroup` or `'skillGroup-skillSub'`.
-* **projectiles**: An array of `skillSub` projectiles. Requires DEBUG_PROJECTILES to be enabled.
-* **triggerAbnormal** (object): Abnormalities this skill triggers on use. Keys are abnormality IDs, values are durations.
-* **consumeAbnormal**: An array of abnormalities consumed before this skill begins.
-* **consumeAbnormalEnd**: An array of abnormalities consumed after this skill ends.
-* **movement**: An array of segment objects containing the following parameters (from S_ACTION_STAGE):
-* * **duration**: Segment duration.
-* * **speed**: Horitonztal distance multiplier.
-* * **unk**: Vertical distance multiplier.
-* * **distance**: Distance moved for this segment.
-* **glyphs** (object): Keys are glyph IDs, values contain one or more properties:
-* * **movement**: Overrides **movement**.
-* * **distance**: Multiplies **distance**.
-* **abnormals** (object): Keys are abnormality IDs, values contain one or more properties:
-* * **disableSkill**: Disables skill usage.
-* * **speed**: Multiplies **speed**.
-* * **chargeSpeed**: Bonus charging speed (additive).
-* **chains** (object) *deprecated*: Keys are `skillGroup` or `'skillGroup-skillSub'`, values override `skillSub`.
-* **userChain**: Forced initial chain for simulating serverside anti-cheat. Possible values are `skillSub` (<100), `skillId` (>=100) or `null`.
-* **abnormalChains** (object): Keys are `abnormalId`. Possible values are `skillSub` (<100), `skillId` (>=100) or `null`.
-* **categoryChains** (object): Keys are a comma-separate list of category IDs which must match. Possible values are `skillSub` (<100), `skillId` (>=100) or `null`.
-* **inPlace** (object): Used while casting a skill without pressing movement keys.
-* * **movement**: Overrides **movement**.
-* * **distance**: Overrides **distance**.
-* **stamina**: How much Stamina (Resolve, Willpower, Chi, Ragnarok) is required to use this skill.
-* **instantStamina** (boolean): Simulate stamina usage without waiting for server response.
-* **requiredBuff**: Abnormality ID (or an array of possible IDs) required to use this skill.
-* **forceClip** (boolean): Rubberbands the player to the server location in S_ACTION_STAGE.movement (if set) when the skill ends. Used to prevent iframes from clipping through gates, etc.
-* **interruptibleWithAbnormal** (object): Keys are abnormality IDs, values are a `skillGroup` that can be interrupted with this skill.
-* **chainOnRelease**: `skillSub` animation to play if the button is released early (only for `type: 'hold'` or `type: 'holdInfinite'`).
-* **teleportStage**: Stage at which to apply teleport (only for `type: 'teleport'`).
-* **partyOnly** (boolean): Lockon only applies to party members (only for `type: 'lockon'`).
-* **flyingSpeed**: Projectile speed (only for `type: 'userProjectile'`).
-* **flyingDistance**: Projectile curve endpoint (only for `type: 'userProjectile'`).
-* **hasChains** (boolean): Flags this skill as being prone to desync (enables strict notify location checking).
-* **noRetry** (boolean): Disables automatic retries for this skill.
-* **race** (object): Keys are race+gender ID, values override `skillData` properties.
-* **level** (object): Keys are skill level - 1 (to enable array usage), values override `skillData` properties.
+### Skill Data Properties
+
+`skillData` is an object containing one or more of the following properties:
+
+- **type**: SP-specific skill type, including:
+  - `'hold'`: Temporarily-held skills (Corruption Ring)
+  - `'holdInfinite'`: Infinitely-held skills (Stand Fast, Axe Block, etc.)
+  - `'dash'`: Fixed-speed dash using S_INSTANT_DASH
+  - `'teleport'`: Fixed-distance teleport using S_INSTANT_MOVE
+  - `'lockon'`: Lock-on targeting skills
+  - `'lockonCast'`: Lock-on casting skills
+  - `'userProjectile'`: Client-sided projectile (not a skill)
+- **fixedSpeed** (boolean): Ignore attack speed
+- **length**: Skill animation length before taking into account speed multipliers
+- **distance**: Distance the skill moves the player in the direction it's facing
+- **moveDir**: Distance rotation in half-turns (default 0)
+- **noInterrupt**: List of skills that cannot be interrupted by this skill
+- **projectiles**: Array of `skillSub` projectiles (requires DEBUG_PROJECTILES to be enabled)
+- **triggerAbnormal**: Abnormalities this skill triggers on use
+- **consumeAbnormal**: Abnormalities consumed before this skill begins
+- **consumeAbnormalEnd**: Abnormalities consumed after this skill ends
+- **movement**: Array of segment objects for movement control
+- **glyphs**: Glyph-specific modifications to skills
+- **abnormals**: Abnormality-specific modifications to skills
+- **chains**: Legacy skill chaining system (deprecated)
+- **userChain**: Forced initial chain for simulating serverside anti-cheat
+- **abnormalChains**: Abnormality-based skill chains
+- **categoryChains**: Category-based skill chains
+- **inPlace**: Modifications when casting a skill without movement
+- **stamina**: Stamina/resource cost of the skill
+- **instantStamina**: Simulate stamina usage without waiting for server response
+- **requiredBuff**: Abnormality required to use this skill
+- **forceClip**: Prevents iframes from clipping through gates
+- **interruptibleWithAbnormal**: Abnormality-based skill interruption
+- **chainOnRelease**: Animation to play if a held button is released early
+- **teleportStage**: Stage at which to apply teleport
+- **partyOnly**: Restricts lock-on to party members only
+- **flyingSpeed**: Projectile speed
+- **flyingDistance**: Projectile curve endpoint
+- **hasChains**: Flags this skill as being prone to desync
+- **noRetry**: Disables automatic retries for this skill
+- **race**: Race+gender specific overrides
+- **level**: Skill level specific overrides
+
+## Class IDs
+
+- 0: Warrior
+- 1: Lancer
+- 2: Slayer
+- 3: Berserker
+- 4: Sorcerer
+- 5: Archer
+- 6: Priest
+- 7: Elementalist (Mystic)
+- 8: Soulless (Reaper)
+- 9: Engineer (Gunner)
+- 10: Brawler
+- 11: Ninja
+- 12: Valkyrie
+
+## Race IDs
+
+- 0: Male Human
+- 1: Female Human
+- 2: Male High Elf
+- 3: Female High Elf
+- 4: Male Aman
+- 5: Female Aman
+- 6: Male Castanic
+- 7: Female Castanic
+- 8: Popori
+- 9: Elin
+- 10: Baraka
+
+## Compatibility
+
+This module conflicts with several other modules that affect skill usage. Do not use Skill Prediction with:
+- cooldowns
+- lockons
+- fastfire/fast-fire
+- ping-compensation
+- ping-remover
+- other skill-prediction variants
+
+## Credits
+
+Many have contributed to this module over the years. This version is a fork of Pinkie Pie's original Skill Prediction for Caali's tera-proxy. Then many have modified to be compatible with TERA Toolbox. THis final version was modded to work best with Tera patch 31.04, on private server Omni, by merusira.
