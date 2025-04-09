@@ -1,5461 +1,1206 @@
+/*	Notes:
+	* '*' can be used in place of the skill or sub-skill to set default values
+	Data updated to reflect data used by Tera private server Omni.
+*/
+
 module.exports = {
-  /* Warrior (0) */
-  "0": {
-    "1": { // Combo Attack
-      "0": true,
-      "1": true,
-      "2": true,
-      "3": true
-    },
-    "2": { // Evasive Roll
-      "0": {
-        "forceClip": true,
-        "stamina": 500,
-        "instantStamina": true
-      }
-    },
-    "3": { // Torrent of Blows
-      "0": true
-    },
-    "4": { // Rain of Blows
-      "0": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          16,
-          17,
-          19,
-          22,
-          23,
-          28,
-          29,
-          30,
-          31,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          41,
-          42
-        ],
-        "categoryChains": {
-          "550": 30
-        }
-      },
-      "30": true
-    },
-    "5": { // Battle Cry
-      "0": true
-    },
-    "8": { // Assault Stance
-      "0": {
-        "stamina": 1000,
-        "abnormals": {
-          "102500": {
-            "disableSkill": true
-          }
-        }
-      },
-      "50": true
-    },
-    "9": { // Defensive Stance
-      "0": {
-        "stamina": 1000
-      },
-      "50": true
-    },
-    "10": { // Death From Above
-      "0": {
-        "noInterrupt": [
-          10
-        ]
-      }
-    },
-    "11": { // Poison Blade
-      "0": true
-    },
-    "12": { // Leaping Strike
-      "0": true
-    },
-    "13": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "16": { // Charging Slash
-      "0": {
-        "fixedSpeed": true,
-        "length": 1100,
-        "distance": 467.88,
-        "noRetry": true
-      },
-      "1": true,
-      "*": {
-        "noInterrupt": [
-          2,
-          10,
-          22,
-          29,
-          30,
-          32,
-          37,
-          38,
-          40,
-          41
-        ]
-      }
-    },
-    "17": { // Vortex Slash
-      "0": true,
-      "1": true,
-      "2": true
-    },
-    "18": { // Combative Strike
-      "0": true,
-      "1": true,
-      "2": true,
-      "*": {
-        "noInterrupt": [
-          32
-        ]
-      }
-    },
-    "19": { // Rising Fury
-      "0": true,
-      "1": true
-    },
-    "20": { // Deadly Gamble
-      "0": {
-        "fixedSpeed": true,
-        "cooldownEnd": 300
-      }
-    },
-    "21": { // Cascade of Stuns
-      "0": true
-    },
-    "22": { // Backstab
-      "0": {
-        "distance": 0,
-        "onlyTarget": true
-      }
-    },
-    "23": { // Spinning Counter
-      "0": {
-        "requiredBuff": 100700
-      }
-    },
-    "24": { // Smoke Aggressor
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "25": { // Command: Attack
-      "0": {
-        "fixedSpeed": true,
-        "requiredBuff": 102600
-      }
-    },
-    "26": { // Command: Follow
-      "0": {
-        "fixedSpeed": true,
-        "requiredBuff": 102600
-      }
-    },
-    "28": { // Traverse Cut
-      "0": {
-        "categoryChains": {
-          "1011": 30,
-          "1012": 30,
-          "1018": 30,
-          "1040": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          4,
-          8,
-          9,
-          10,
-          13,
-          16,
-          17,
-          19,
-          21,
-          22,
-          28,
-          29,
-          30,
-          31,
-          32,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          41,
-          42
-        ],
-        "hasChains": true
-      }
-    },
-    "29": { // Blade Draw
-      "0": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          "16-0",
-          18,
-          "19-0",
-          21,
-          22,
-          23,
-          27,
-          29,
-          30,
-          34,
-          35,
-          36,
-          37,
-          38,
-          41,
-          42
-        ],
-        "interruptibleWithAbnormal": {
-          "102010": 3
-        },
-        "categoryChains": {
-          "550": 30,
-          "1032": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "30": { // Scythe
-      "0": {
-        "noInterrupt": [
-          1,
-          3,
-          5,
-          8,
-          9,
-          10,
-          13,
-          16,
-          17,
-          18,
-          19,
-          21,
-          22,
-          23,
-          27,
-          28,
-          30,
-          31,
-          34,
-          35,
-          38,
-          39,
-          41,
-          42
-        ],
-        "categoryChains": {
-          "1002": 30,
-          "1004": 30,
-          "1011": 30,
-          "1012": 30,
-          "1029": 30,
-          "1040": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "31": { // Reaping Slash
-      "0": {
-        "categoryChains": {
-          "550": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          5,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          16,
-          17,
-          19,
-          21,
-          22,
-          23,
-          27,
-          28,
-          29,
-          30,
-          33,
-          34,
-          35,
-          37,
-          38,
-          39,
-          41,
-          42
-        ],
-        "hasChains": true
-      }
-    },
-    "32": { // Cross Parry
-      "0": {
-        "fixedSpeed": true,
-        "requiredBuff": [
-          100200,
-          100201
-        ],
-        "stamina": 50
-      }
-    },
-    "34": { // Binding Sword
-      "0": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          10,
-          11,
-          12,
-          13,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23,
-          28,
-          29,
-          30,
-          31,
-          33,
-          35,
-          36,
-          37,
-          38,
-          39,
-          41,
-          42
-        ]
-      }
-    },
-    "35": { // Infuriate
-      "0": {
-        "requiredBuff": [
-          100200,
-          100201
-        ]
-      }
-    },
-    "36": { // Rain of Blows (Deadly Gamble)
-      "0": {
-        "categoryChains": {
-          "550": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "37": { // Blade Draw (Deadly Gamble)
-      "0": {
-        "categoryChains": {
-          "550": 30,
-          "1032": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "38": { // Scythe (Deadly Gamble)
-      "0": {
-        "categoryChains": {
-          "1002": 30,
-          "1004": 30,
-          "1011": 30,
-          "1012": 30,
-          "1029": 30,
-          "1040": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "39": { // Traverse Cut (Defensive Stance)
-      "0": {
-        "categoryChains": {
-          "1011": 30,
-          "1012": 30,
-          "1018": 30,
-          "1040": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "40": { // Blade Waltz
-      "10": {
-        "triggerAbnormal": {
-          "104101": 800
-        },
-        "categoryChains": {
-          "560": 11
-        },
-        "noRetry": true
-      },
-      "11": {
-        "triggerAbnormal": {
-          "104101": 800
-        }
-      },
-      "12": true,
-      "20": {
-        "triggerAbnormal": {
-          "104101": 800
-        },
-        "categoryChains": {
-          "560": 21
-        },
-        "noRetry": true
-      },
-      "21": {
-        "triggerAbnormal": {
-          "104101": 800
-        }
-      },
-      "22": true,
-      "*": {
-        "noInterrupt": [
-          "41-0",
-          "41-30",
-          42
-        ],
-        "abnormals": {
-          "104101": {
-            "disableSkill": true
-          }
-        },
-        "hasChains": true,
-        "longRetry": true
-      }
-    },
-    "41": { // Aerial Scythe
-      "0": {
-        "triggerAbnormal": {
-          "105100": 1800
-        },
-        "categoryChains": {
-          "560": 30
-        }
-      },
-      "30": {
-        "triggerAbnormal": {
-          "105100": 1800
-        }
-      },
-      "31": {
-        "consumeAbnormal": 105100
-      },
-      "*": {
-        "noInterrupt": [
-          42
-        ],
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "42": { // Blade Frenzy
-      "0": {
-        "categoryChains": {
-          "1002": 30,
-          "1030": 30,
-          "2041": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "noInterrupt": [
-          1,
-          3,
-          4,
-          5,
-          10,
-          11,
-          12,
-          13,
-          16,
-          17,
-          18,
-          19,
-          21,
-          22,
-          23,
-          28,
-          29,
-          31,
-          33,
-          34,
-          35,
-          36,
-          37,
-          39,
-          "41-0",
-          "41-30",
-          42
-        ],
-        "hasChains": true
-      }
-    }
-  },
-  /* Lancer (1) */
-  "1": {
-    "1": { // Combo Attack
-      "0": true,
-      "1": true,
-      "2": true,
-      "*": {
-        "noInterrupt": [
-          1,
-          2
-        ]
-      }
-    },
-    "2": { // Stand Fast
-      "0": {
-        "fixedSpeed": true,
-        "stamina": 50,
-        "level": {
-          "1": {
-            "stamina": 40
-          }
-        },
-        "noRetry": true
-      }
-    },
-    "3": { // Onslaught
-      "0": {
-        "length": [
-          950,
-          500,
-          500,
-          500,
-          400,
-          775
-        ]
-      },
-      "30": {
-        "length": [
-          713,
-          375,
-          375,
-          375,
-          300,
-          582
-        ]
-      },
-      "*": {
-        "distance": [
-          0,
-          100,
-          100,
-          100,
-          100,
-          62.7
-        ],
-        "abnormals": {
-          "22060": {
-            "speed": 1.25
-          }
-        },
-        "chains": {
-          "5": 30
-        }
-      }
-    },
-    "4": { // Challenging Shout
-      "0": {
-        "chains": {
-          "1": 30,
-          "3": 30,
-          "5": 30,
-          "8": 30,
-          "10": 30,
-          "13": 30,
-          "15": 30,
-          "18": 30,
-          "21": 30,
-          "25": 30,
-          "28": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "noInterrupt": [
-          4,
-          9,
-          12,
-          23,
-          24,
-          26
-        ]
-      }
-    },
-    "5": { // Shield Bash
-      "1": true,
-      "2": {
-        "chains": {
-          "10": 30
-        }
-      },
-      "30": true
-    },
-    "7": { // Guardian Shout
-      "0": true
-    },
-    "8": { // Shield Counter
-      "0": {
-        "onlyDefenceSuccess": true
-      }
-    },
-    "9": { // Leash
-      "0": true
-    },
-    "10": { // Debilitate
-      "0": {
-        "chains": {
-          "1": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "triggerAbnormal": {
-          "201830": 2000
-        },
-        "consumeAbnormalEnd": 201830,
-        "noInterrupt": [
-          3,
-          4,
-          5,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          15,
-          21,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29
-        ]
-      }
-    },
-    "11": { // Retaliate
-      "0": {
-        "noRetry": false
-      }
-    },
-    "12": { // Infuriate
-      "0": {
-        "length": 2400
-      }
-    },
-    "13": { // Spring Attack
-      "0": {
-        "length": 2775,
-        "distance": 85,
-        "noInterrupt": [
-          3,
-          13,
-          "18-0",
-          21,
-          25,
-          26
-        ],
-        "chains": {
-          "1": 30,
-          "5": 30,
-          "8": 30,
-          "10": 30,
-          "18": 30
-        }
-      },
-      "30": {
-        "length": 1850,
-        "distance": 85
-      }
-    },
-    "16": { // Second Wind
-      "0": {
-        "fixedSpeed": 1,
-        "length": 700
-      }
-    },
-    "17": { // Adrenaline Rush
-      "0": {
-        "fixedSpeed": 1,
-        "length": 700
-      }
-    },
-    "18": { // Shield Barrage
-      "0": {
-        "abnormals": {
-          "201550": {
-            "speed": 1.2
-          }
-        }
-      },
-      "1": true,
-      "*": {
-        "triggerAbnormal": {
-          "201831": 2000
-        },
-        "consumeAbnormalEnd": 201831,
-        "noInterrupt": [
-          18
-        ]
-      }
-    },
-    "19": { // Pledge of Protection
-      "0": {
-        "fixedSpeed": 1,
-        "length": 1000
-      }
-    },
-    "21": { // Lockdown Blow
-      "0": {
-        "length": 1400,
-        "distance": 122.66
-      }
-    },
-    "22": { // Iron Will
-      "0": {
-        "fixedSpeed": 1,
-        "length": 800
-      }
-    },
-    "23": { // Master's Leash
-      "0": {
-        "requiredBuff": 201000
-      }
-    },
-    "24": { // Chained Leash
-      "1": true,
-      "2": true
-    },
-    "25": { // Wallop
-      "0": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          9,
-          23,
-          24,
-          25,
-          26
-        ],
-        "chains": {
-          "8": 30,
-          "10": 30,
-          "13": 30,
-          "15": 30,
-          "18": 30,
-          "21": 30
-        }
-      },
-      "30": true
-    },
-    "26": { // Backstep
-      "0": {
-        "moveDir": 1,
-        "forceClip": true,
-        "stamina": 800,
-        "instantStamina": true,
-        "noInterrupt": [
-          26
-        ]
-      }
-    },
-    "27": { // Rallying Cry
-      "0": true
-    },
-    "29": { // Guardian's Barrier
-      "0": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "30": { // Divine Protection
-      "0": true
-    }
-  },
-  /* Slayer (2) */
-  "2": {
-    "1": { // Combo Attack
-      "0": true,
-      "1": true,
-      "2": true,
-      "3": true,
-      "*": {
-        "noRetry": true
-      }
-    },
-    "2": { // Knockdown Strike
-      "1": true,
-      "2": {
-        "chains": {
-          "14": 30,
-          "27": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "abnormals": {
-          "23070": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "3": { // Whirlwind
-      "0": true,
-      "1": true,
-      "2": {
-        "chains": {
-          "2": 30,
-          "4": 30,
-          "8": 30,
-          "12": 30,
-          "23": 30,
-          "24": 30,
-          "26": 30,
-          "27": 30,
-          "28": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "abnormals": {
-          "23080": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "4": { // Evasive Roll
-      "0": {
-        "abnormalChains": {
-          "40300": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "forceClip": true,
-        "hasChains": true
-      }
-    },
-    "5": { // Dash
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "6": { // Backstab
-      "0": {
-        "distance": 0,
-        "onlyTarget": true
-      }
-    },
-    "9": { // Leaping Strike
-      "0": true
-    },
-    "10": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "12": { // Heart Thrust
-      "0": true,
-      "1": true,
-      "2": {
-        "chains": {
-          "2": 30,
-          "3": 30,
-          "4": 30,
-          "8": 30,
-          "12": 30,
-          "23": 30,
-          "24": 30,
-          "26": 30,
-          "27": 30,
-          "28": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "abnormals": {
-          "23060": {
-            "speed": 1.25
-          },
-          "23061": {
-            "speed": 1.35
-          }
-        }
-      }
-    },
-    "13": { // Stunning Backhand
-      "0": true
-    },
-    "14": { // Distant Blade
-      "0": true,
-      "1": true,
-      "2": true,
-      "*": {
-        "triggerAbnormal": {
-          "23220": 2000
-        },
-        "consumeAbnormalEnd": 23220
-      }
-    },
-    "15": { // Startling Kick
-      "0": {
-        "moveDir": 1,
-        "forceClip": true
-      }
-    },
-    "16": { // Fury Strike
-      "0": true
-    },
-    "17": { // Headlong Rush
-      "0": {
-        "fixedSpeed": true,
-        "length": 1000,
-        "distance": 413
-      }
-    },
-    "18": { // Overpower
-      "0": true,
-      "50": true
-    },
-    "19": { // Tenacity
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "20": { // In Cold Blood
-      "0": {
-        "fixedSpeed": true,
-        "triggerAbnormal": {
-          "23220": 2000
-        },
-        "consumeAbnormalEnd": 23220
-      }
-    },
-    "23": { // Measured Slice
-      "0": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          4,
-          6,
-          9,
-          12,
-          13,
-          15,
-          17,
-          22,
-          23
-        ],
-        "categoryChains": {
-          "3008": 30,
-          "3024": 30,
-          "3025": 30,
-          "3026": 30,
-          "3027": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "24": { // Eviscerate
-      "0": {
-        "noInterrupt": [
-          "1-0",
-          "1-1",
-          "1-2",
-          4,
-          6,
-          14,
-          16,
-          17,
-          22,
-          24,
-          26
-        ],
-        "chains": {
-          "1": 30,
-          "2": 30,
-          "3": 30,
-          "8": 30,
-          "9": 30,
-          "12": 30,
-          "13": 30,
-          "15": 30,
-          "25": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "26": { // Punishing Blow
-      "0": {
-        "categoryChains": {
-          "3023": 30,
-          "3024": 30,
-          "3027": 30,
-          "3099": 30
-        }
-      },
-      "30": {
-        "consumeAbnormal": 301604
-      },
-      "*": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          4,
-          6,
-          9,
-          10,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          21,
-          22,
-          26,
-          28
-        ],
-        "hasChains": true
-      }
-    },
-    "27": { // Savage Strike
-      "0": {
-        "triggerAbnormal": {
-          "301600": 4000,
-          "301603": 5000
-        },
-        "categoryChains": {
-          "9999": 30
-        }
-      },
-      "30": {
-        "triggerAbnormal": {
-          "301603": 5000
-        }
-      },
-      "31": {
-        "consumeAbnormal": [
-          301600,
-          301603
-        ],
-        "triggerAbnormal": {
-          "301601": 4000
-        }
-      },
-      "*": {
-        "noInterrupt": [
-          "27-31"
-        ],
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "28": { // Unsheathe
-      "0": {
-        "chargeLevels": [
-          1,
-          2,
-          3
-        ],
-        "abnormals": {
-          "301600": {
-            "chargeSpeed": 0.4
-          },
-          "301601": {
-            "chargeSpeed": 0.6
-          }
-        }
-      },
-      "1": true,
-      "2": true,
-      "3": true,
-      "*": {
-        "noRetry": true
-      }
-    }
-  },
-  /* Berserker (3) */
-  "3": {
-    "1": { // Combo Attack
-      "0": true,
-      "1": true,
-      "2": true,
-      "3": true,
-      "*": {
-        "noRetry": true
-      }
-    },
-    "2": { // Axe Block
-      "0": true,
-      "30": true,
-      "31": {
-        "fixedSpeed": true
-      },
-      "*": {
-        "consumeAbnormal": 401701
-      }
-    },
-    "3": { // Thunder Strike
-      "0": {
-        "abnormals": {
-          "24130": {
-            "chargeSpeed": 0.3
-          },
-          "24170": {
-            "speed": 1.25
-          },
-          "400500": {
-            "chargeSpeed": 0.2
-          },
-          "400501": {
-            "chargeSpeed": 0.4
-          },
-          "400508": {
-            "chargeSpeed": 0.4
-          },
-          "401150": {
-            "chargeSpeed": 0.2
-          }
-        }
-      },
-      "10": {
-        "noRetry": true
-      },
-      "11": {
-        "noRetry": true
-      },
-      "12": {
-        "noRetry": true
-      },
-      "13": {
-        "noRetry": true
-      },
-      "*": {
-        "moveDir": 1,
-        "abnormals": {
-          "24170": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "4": { // Flatten
-      "0": {
-        "noInterrupt": [
-          1,
-          2,
-          "3-10",
-          "3-11",
-          "3-12",
-          "3-13",
-          4,
-          "8-30",
-          "10-10",
-          "10-11",
-          "10-12",
-          11,
-          "10-13",
-          13,
-          "15-10",
-          "15-11",
-          "15-12",
-          "15-13",
-          "15-14",
-          18,
-          24,
-          26,
-          28,
-          29,
-          30,
-          "32-0"
-        ],
-        "chains": {
-          "6": 30,
-          "25": 30,
-          "31": 30,
-          "32": 31,
-          "34": 30,
-          "35": 30,
-          "36": 30,
-          "37": 30
-        }
-      },
-      "1": {
-        "chains": {
-          "6": 31,
-          "25": 31,
-          "31": 31,
-          "32": 31
-        }
-      },
-      "30": true,
-      "31": true
-    },
-    "5": { // Dash
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "8": { // Fiery Rage
-      "1": {
-        "fixedSpeed": true
-      },
-      "30": true
-    },
-    "10": { // Cyclone
-      "0": {
-        "noChargeAbnormalityId": 401701,
-        "abnormals": {
-          "24190": {
-            "chargeSpeed": 0.3
-          },
-          "400500": {
-            "chargeSpeed": 0.2
-          },
-          "400501": {
-            "chargeSpeed": 0.4
-          },
-          "400508": {
-            "chargeSpeed": 0.4
-          },
-          "401150": {
-            "chargeSpeed": 0.2
-          }
-        },
-        "noRetry": true
-      },
-      "10": {
-        "noRetry": true
-      },
-      "11": {
-        "noRetry": true
-      },
-      "12": {
-        "noRetry": true
-      },
-      "13": true
-    },
-    "11": { // Leaping Strike
-      "0": true
-    },
-    "15": { // Vampiric Blow
-      "0": {
-        "noInterrupt": [
-          2
-        ],
-        "releaseChain": {
-          "overcharge": true,
-          "chain": 14
-        }
-      },
-      "10": {
-        "noRetry": true
-      },
-      "11": {
-        "noRetry": true
-      },
-      "12": {
-        "noRetry": true
-      },
-      "13": {
-        "noRetry": true
-      },
-      "14": true
-    },
-    "21": { // Bloodlust
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "24": { // Evasive Smash
-      "0": true,
-      "5": true,
-      "10": true,
-      "11": true,
-      "12": true,
-      "13": true
-    },
-    "25": { // Raze
-      "0": {
-        "noInterrupt": [
-          2,
-          "3-10",
-          "3-11",
-          "3-12",
-          "3-13",
-          4,
-          6,
-          "8-30",
-          "10-10",
-          "10-11",
-          "10-12",
-          "10-13",
-          11,
-          12,
-          13,
-          "15-10",
-          "15-11",
-          "15-12",
-          "15-13",
-          "15-14",
-          "18-10",
-          "18-11",
-          "18-12",
-          "18-13",
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          "32-0"
-        ],
-        "interruptibleWithAbnormal": {
-          "401404": 2
-        },
-        "abnormals": {
-          "401404": {
-            "chain": 31
-          }
-        },
-        "chains": {
-          "1": 30,
-          "30": 31,
-          "31": 30,
-          "32": 31
-        }
-      },
-      "1": true,
-      "30": {
-        "length": 965
-      },
-      "31": {
-        "length": 965
-      },
-      "*": {
-        "length": 1205,
-        "distance": 96,
-        "glyphs": {
-          "24078": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "26": { // Tackle
-      "0": {
-        "length": 1000,
-        "distance": 80
-      }
-    },
-    "27": { // Unbreakable
-      "0": {
-        "noInterrupt": [
-          1,
-          "3-10",
-          "3-11",
-          "3-12",
-          "3-13",
-          4,
-          6,
-          "8-30",
-          "10-10",
-          "10-11",
-          "10-12",
-          "10-13",
-          11,
-          13,
-          "15-10",
-          "15-11",
-          "15-12",
-          "15-13",
-          "15-14",
-          18,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30,
-          31,
-          32,
-          33
-        ],
-        "interruptibleWithAbnormal": {
-          "401705": 33
-        }
-      },
-      "30": true
-    }
-  },
-  /* Sorcerer (4) */
-  "4": {
-    "1": { // Fireball
-      "0": true
-    },
-    "2": { // Frost Sphere
-      "0": true
-    },
-    "3": { // Lightning Trap
-      "0": {
-        "abnormals": {
-          "25090": {
-            "speed": 1.4
-          }
-        }
-      }
-    },
-    "4": { // Arcane Pulse
-      "0": {
-        "abnormals": {
-          "25140": {
-            "chargeSpeed": 0.3
-          }
-        }
-      },
-      "10": {
-        "noRetry": true
-      },
-      "11": {
-        "noRetry": true
-      },
-      "12": {
-        "noRetry": true
-      }
-    },
-    "5": { // Mana Infusion
-      "0": true
-    },
-    "6": { // Meteor Strike
-      "0": {
-        "abnormals": {
-          "25100": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "7": { // Backstep
-      "0": {
-        "moveDir": 1,
-        "forceClip": true
-      }
-    },
-    "8": { // Flame Pillar
-      "0": {
-        "abnormals": {
-          "25070": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "10": { // Mana Barrier
-      "0": true
-    },
-    "11": { // Lightning Strike
-      "0": {
-        "checkReset": true
-      }
-    },
-    "12": { // Void Pulse
-      "0": true
-    },
-    "13": { // Mindblast
-      "0": {
-        "abnormals": {
-          "25110": {
-            "speed": 1.4
-          }
-        }
-      }
-    },
-    "14": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "16": { // Painblast
-      "0": true
-    },
-    "17": { // Painful Trap
-      "0": true
-    },
-    "18": { // Glacial Retreat
-      "0": {
-        "moveDir": 1,
-        "forceClip": true
-      }
-    },
-    "19": { // Mana Siphon
-      "0": {
-        "autoRelease": 0
-      },
-      "10": {
-        "noRetry": true
-      },
-      "11": {
-        "noRetry": true
-      },
-      "12": {
-        "noRetry": true
-      }
-    },
-    "20": { // Flaming Barrage
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast",
-        "abnormals": {
-          "25060": {
-            "speed": 1.25
-          }
-        }
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "21": { // Nerve Exhaustion
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast",
-        "fixedSpeed": true
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "22": { // Burning Breath
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast",
-        "fixedSpeed": true
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "23": { // Mana Volley
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast",
-        "fixedSpeed": true
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "25": { // Time Gyre
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast",
-        "fixedSpeed": true
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "26": { // Teleport Jaunt
-      "0": {
-        "noInterrupt": [
-          26
-        ],
-        "cooldownEnd": 300,
-        "noRetry": true
-      }
-    },
-    "27": { // Hailstorm
-      "0": true
-    },
-    "30": { // Nova
-      "0": true
-    },
-    "31": { // Warp Barrier
-      "10": true,
-      "20": true
-    },
-    "32": { // Meteor Strike (Mana Boost)
-      "0": true,
-      "50": true,
-      "*": {
-        "noRetry": true
-      }
-    },
-    "33": { // Arcane Pulse (Mana Boost)
-      "10": true,
-      "11": true,
-      "12": true,
-      "50": true,
-      "*": {
-        "noRetry": true
-      }
-    },
-    "34": { // Mana Boost
-      "0": true
-    },
-    "36": { // Fusion
-      "0": true,
-      "30": true,
-      "*": {
-        "noInterrupt": [
-          6,
-          20,
-          36,
-          30,
-          32
-        ]
-      }
-    },
-    "39": { // Implosion
-      "0": {
-        "requiredBuff": 502052,
-        "distance": [
-          0,
-          0,
-          -219.55
-        ]
-      }
-    }
-  },
-  /* Archer (5) */
-  "5": {
-    "1": { // Arrow
-      "0": true
-    },
-    "2": { // Arrow Volley
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "3": { // Radiant Arrow
-      "0": true,
-      "10": {
-        "noRetry": true
-      },
-      "11": {
-        "noRetry": true
-      },
-      "12": {
-        "noRetry": true
-      },
-      "13": {
-        "noRetry": true
-      },
-      "*": {
-        "moveDir": 1,
-        "abnormals": {
-          "26180": {
-            "chargeSpeed": 0.3
-          },
-          "601450": {
-            "chargeSpeed": 0.5
-          },
-          "602108": {
-            "speed": 1.3
-          }
-        }
-      }
-    },
-    "4": { // Penetrating Arrow
-      "0": true,
-      "10": {
-        "noRetry": true
-      },
-      "11": {
-        "noRetry": true
-      },
-      "12": {
-        "noRetry": true
-      },
-      "13": {
-        "noRetry": true
-      },
-      "*": {
-        "moveDir": 1,
-        "abnormals": {
-          "26160": {
-            "chargeSpeed": 0.3
-          },
-          "26170": {
-            "chargeSpeed": 0.3
-          },
-          "26171": {
-            "chargeSpeed": 0.4
-          },
-          "26190": {
-            "chargeSpeed": 0.3
-          },
-          "601450": {
-            "chargeSpeed": 0.5
-          },
-          "602108": {
-            "speed": 1.3
-          }
-        }
-      }
-    },
-    "5": { // Rain of Arrows
-      "0": true
-    },
-    "6": { // Backstep
-      "0": {
-        "length": 650,
-        "distance": -200
-      }
-    },
-    "7": { // Feign Death
-      "0": {
-        "fixedSpeed": true,
-        "moveDir": 1
-      }
-    },
-    "8": { // Rapid Fire
-      "0": {
-        "length": 425
-      },
-      "1": {
-        "length": 600
-      },
-      "2": {
-        "length": 700
-      },
-      "3": {
-        "length": 700
-      },
-      "4": {
-        "length": 700
-      },
-      "5": {
-        "length": 700
-      },
-      "6": {
-        "length": 1235
-      }
-    },
-    "9": { // Slow Trap
-      "0": true
-    },
-    "10": { // Stunning Trap
-      "0": true
-    },
-    "15": { // Incendiary Trap
-      "0": true
-    },
-    "16": { // Breakaway Bolt
-      "0": {
-        "moveDir": 1,
-        "forceClip": true
-      }
-    },
-    "17": { // Web Arrow
-      "0": true
-    },
-    "18": { // Close Quarters
-      "0": {
-        "length": 300,
-        "distance": 89.8
-      },
-      "1": {
-        "length": 1200,
-        "distance": 87.29
-      }
-    },
-    "19": { // Poison Arrow
-      "0": true
-    },
-    "20": { // Restraining Arrow
-      "0": true
-    },
-    "22": { // Sequential Fire
-      "0": {
-        "requiredBuff": 600200,
-        "noRetry": true
-      }
-    },
-    "25": { // Incendiary Trap Arrow
-      "0": true
-    },
-    "29": { // Thunderbolt
-      "0": {
-        "length": 3750,
-        "glyphs": {
-          "26089": {
-            "speed": 1.3
-          },
-          "26102": {
-            "speed": 1.3
-          }
-        }
-      }
-    }
-  },
-  /* Priest (6) */
-  "6": {
-    "1": { // Divine Radiance
-      "0": {
-        "length": 625
-      },
-      "1": {
-        "length": 650
-      },
-      "2": {
-        "length": 675
-      },
-      "3": {
-        "length": 725
-      }
-    },
-    "2": { // Regeneration Circle
-      "0": {
-        "length": 3150,
-        "abnormals": {
-          "902": {
-            "speed": 1.15
-          },
-          "911": {
-            "speed": 1.15
-          },
-          "916": {
-            "speed": 1.15
-          },
-          "920": {
-            "speed": 1.225
-          }
-        }
-      }
-    },
-    "3": { // Healing Circle
-      "0": {
-        "length": 1750
-      }
-    },
-    "5": { // Blessing of Shakan
-      "0": true
-    },
-    "6": { // Arise
-      "0": true
-    },
-    "8": { // Mana Infusion
-      "0": {
-        "length": 4600,
-        "glyphs": {
-          "28044": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "10": { // Purifying Circle
-      "0": {
-        "length": 1275
-      }
-    },
-    "11": { // Metamorphic Blast
-      "0": {
-        "length": 830
-      }
-    },
-    "12": { // Resurrect
-      "0": {
-        "abnormals": {
-          "902": {
-            "speed": 1.15
-          },
-          "911": {
-            "speed": 1.15
-          },
-          "912": {
-            "speed": 1.15
-          },
-          "913": {
-            "speed": 1.15
-          },
-          "916": {
-            "speed": 1.15
-          },
-          "917": {
-            "speed": 1.15
-          },
-          "920": {
-            "speed": 1.225
-          },
-          "921": {
-            "speed": 1.225
-          },
-          "922": {
-            "speed": 1.225
-          },
-          "999010000": {
-            "speed": 1.15
-          }
-        }
-      }
-    },
-    "14": { // Summon: Group
-      "0": true
-    },
-    "16": { // Shocking Implosion
-      "0": {
-        "length": 1700
-      }
-    },
-    "18": { // Heal Thyself
-      "0": true
-    },
-    "19": { // Focus Heal
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "22": { // Kaia's Shield
-      "0": true
-    },
-    "25": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "26": { // Fiery Escape
-      "0": {
-        "length": 1125,
-        "distance": -250.5
-      }
-    },
-    "27": { // Final Reprisal
-      "0": {
-        "chains": {
-          "11": 30,
-          "16": 30,
-          "29": 30,
-          "40": 30
-        }
-      },
-      "10": {
-        "chains": {
-          "11": 11,
-          "16": 11,
-          "29": 11,
-          "40": 11
-        }
-      },
-      "11": true,
-      "20": {
-        "chains": {
-          "11": 21,
-          "16": 21,
-          "29": 21,
-          "40": 21
-        }
-      },
-      "21": true,
-      "30": true,
-      "*": {
-        "noInterrupt": [
-          27
-        ]
-      }
-    },
-    "28": { // Mana Charge
-      "0": {
-        "type": "charging",
-        "length": [
-          800,
-          1600
-        ],
-        "noInterrupt": [
-          26,
-          27,
-          38
-        ],
-        "glyphs": {
-          "28031": {
-            "chargeSpeed": 0.25
-          }
-        }
-      },
-      "10": {
-        "noInterrupt": [
-          26,
-          27,
-          38
-        ]
-      },
-      "11": {
-        "noInterrupt": [
-          26,
-          27,
-          38
-        ]
-      },
-      "12": {
-        "noInterrupt": [
-          26,
-          27,
-          38
-        ]
-      },
-      "*": {
-        "type": "chargeCast",
-        "length": 825
-      }
-    },
-    "29": { // Triple Nemesis
-      "0": {
-        "length": 800
-      },
-      "1": {
-        "length": 800
-      },
-      "2": {
-        "length": 1250
-      }
-    },
-    "30": { // Plague of Exhaustion
-      "0": {
-        "type": "lockon"
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "31": { // Guardian Sanctuary
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "32": { // Divine Prayer
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "33": { // Ishara's Lulliby
-      "0": {
-        "type": "lockon"
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "34": { // Restorative Burst
-      "0": {
-        "length": 1430
-      }
-    },
-    "35": { // Energy Stars
-      "0": {
-        "fixedSpeed": 1,
-        "length": 4900,
-        "canCancel": true
-      },
-      "10": {
-        "fixedSpeed": 1,
-        "length": 1430,
-        "chainType": 36
-      }
-    },
-    "37": { // Healing Immersion
-      "0": {
-        "type": "lockon",
-        "noInterrupt": [
-          37
-        ],
-        "partyOnly": true
-      },
-      "10": {
-        "type": "lockonCast",
-        "noInterrupt": [
-          "37-10"
-        ]
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "38": { // Backstep
-      "0": {
-        "moveDir": 1,
-        "forceClip": true
-      }
-    },
-    "39": { // Grace of Resurrection
-      "0": true
-    },
-    "40": { // Zenobia's Vortex
-      "0": true,
-      "10": true,
-      "20": true,
-      "*": {
-        "triggerAbnormal": {
-          "806140": 1480
-        }
-      }
-    },
-    "41": { // Divine Intervention / Mass Divine Intervention
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true,
-        "partyOnly": true
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "42": { // Holy Burst
-      "20": true,
-      "30": true
-    },
-    "43": { // Edict of Judgement
-      "0": true,
-      "50": true
-    }
-  },
-  /* Mystic (7) */
-  "7": {
-    "1": { // Sharan Bolt
-      "0": true,
-      "1": true,
-      "2": true,
-      "3": true
-    },
-    "2": { // Corruption Ring
-      "0": {
-        "cancelChain": 11
-      },
-      "11": true,
-      "12": true
-    },
-    "5": { // Titanic Favor
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "6": { // Shara's Lash
-      "0": true
-    },
-    "8": { // Metamorphic Blast
-      "0": {
-        "noInterrupt": [
-          1,
-          2,
-          6,
-          17
-        ],
-        "checkReset": true,
-        "chains": {
-          "8": 30,
-          "23": 30
-        }
-      },
-      "30": true
-    },
-    "9": { // Arun's Cleansing
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "10": { // Resurrect
-      "0": {
-        "abnormals": {
-          "902": {
-            "speed": 1.25
-          },
-          "911": {
-            "speed": 1.25
-          },
-          "912": {
-            "speed": 1.25
-          },
-          "913": {
-            "speed": 1.25
-          },
-          "916": {
-            "speed": 1.25
-          },
-          "917": {
-            "speed": 1.25
-          },
-          "920": {
-            "speed": 1.375
-          },
-          "921": {
-            "speed": 1.375
-          },
-          "922": {
-            "speed": 1.375
-          },
-          "999010000": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "11": { // Summon: Group
-      "0": true
-    },
-    "12": { // Vow of Rebirth
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true,
-        "partyOnly": true
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "13": { // Aura of the Merciless
-      "0": true,
-      "50": true
-    },
-    "14": { // Aura of the Swift
-      "0": true,
-      "50": true
-    },
-    "15": { // Aura of the Unyielding
-      "0": true,
-      "50": true
-    },
-    "16": { // Aura of the Tenacious
-      "0": true,
-      "50": true
-    },
-    "17": { // Teleport Jaunt
-      "0": {
-        "noInterrupt": [
-          17
-        ],
-        "cooldownEnd": 300,
-        "noRetry": true
-      }
-    },
-    "18": { // Arun's Vitae
-      "0": {
-        "chargeLevels": [
-          10,
-          10
-        ],
-        "autoRelease": 0,
-        "abnormals": {
-          "27070": {
-            "chargeSpeed": 0.25
-          },
-          "27080": {
-            "chargeSpeed": 0.25
-          }
-        }
-      },
-      "10": {
-        "noRetry": true
-      }
-    },
-    "21": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "22": { // Arun's Tears
-      "0": {
-        "chargeLevels": [
-          10,
-          10
-        ],
-        "autoRelease": 0,
-        "abnormals": {
-          "27100": {
-            "chargeSpeed": 0.25
-          }
-        }
-      },
-      "10": {
-        "noRetry": true
-      }
-    },
-    "23": { // Metmorphic Smite
-      "0": {
-        "noInterrupt": [
-          1,
-          2,
-          6,
-          17,
-          23
-        ],
-        "chains": {
-          "8": 30
-        }
-      },
-      "30": true
-    },
-    "24": { // Volley of Curses
-      "0": {
-        "type": "lockon"
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "25": { // Thrall of Protection
-      "0": true,
-      "10": true,
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "cooldownEnd": 300
-      }
-    },
-    "27": { // Thrall of Life
-      "0": true,
-      "10": true,
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "cooldownEnd": 300
-      }
-    },
-    "28": { // Sonorous Dreams
-      "0": {
-        "type": "lockon"
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "29": { // Regression
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "30": { // Curse of Exhaustion
-      "0": {
-        "type": "lockon"
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "31": { // Curse of Confusion
-      "0": {
-        "type": "lockon"
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "32": { // Mire
-      "0": {
-        "type": "lockon"
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "33": { // Thrall of Vengeance
-      "0": true,
-      "10": true,
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "cooldownEnd": 300
-      }
-    },
-    "34": { // Thrall of Wrath
-      "0": true,
-      "10": true,
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "cooldownEnd": 300
-      }
-    },
-    "35": { // Command: Attack
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "36": { // Command: Follow
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "37": { // Warding Totem
-      "0": true
-    },
-    "41": { // Contagion
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "10": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "42": { // Boomerang Pulse
-      "0": {
-        "noInterrupt": [
-          42
-        ],
-        "cooldownEnd": 300
-      }
-    },
-    "43": { // Unsummon Thrall
-      "0": true
-    },
-    "44": { // Mass Teleport
-      "0": {
-        "noInterrupt": [
-          17
-        ],
-        "cooldownEnd": 300,
-        "noRetry": true
-      }
-    },
-    "45": { // Thrall Augmentation
-      "0": true,
-      "50": true
-    },
-    "47": { // Arunic Release
-      "0": true
-    },
-    "48": { // Thrall Lord
-      "0": {
-        "fixedSpeed": true
-      }
-    }
-  },
-  /* Reaper (8) */
-  "8": {
-    "1": { // Spiral Barrage
-      "0": {
-        "triggerAbnormal": {
-          "10151020": 2000
-        },
-        "categoryChains": {
-          "90001": 1
-        }
-      },
-      "1": {
-        "triggerAbnormal": {
-          "10151020": 2000
-        }
-      },
-      "2": {
-        "inPlace": {
-          "movement": [
-            {
-              "duration": 950,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            },
-            {
-              "duration": 346,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            }
-          ],
-          "distance": 0
-        },
-        "triggerAbnormal": {
-          "10151021": 2000
-        }
-      },
-      "3": {
-        "inPlace": {
-          "movement": [
-            {
-              "duration": 616,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            },
-            {
-              "duration": 346,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            }
-          ],
-          "distance": 0
-        },
-        "triggerAbnormal": {
-          "10151022": 1800
-        }
-      },
-      "4": {
-        "inPlace": {
-          "movement": [
-            {
-              "duration": 1150,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            },
-            {
-              "duration": 346,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            }
-          ],
-          "distance": 0
-        },
-        "triggerAbnormal": {
-          "10151023": 2000
-        }
-      },
-      "5": {
-        "inPlace": {
-          "movement": [
-            {
-              "duration": 2016,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            }
-          ],
-          "distance": 0
-        }
-      },
-      "*": {
-        "noInterrupt": [
-          3,
-          4,
-          12,
-          20
-        ],
-        "inPlace": {
-          "movement": [
-            {
-              "duration": 766,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            },
-            {
-              "duration": 346,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            }
-          ],
-          "distance": 0
-        },
-        "noRetry": true
-      }
-    },
-    "3": { // Double Shear
-      "0": {
-        "chains": {
-          "1": 30,
-          "5": 30,
-          "6": 30,
-          "8": 30,
-          "9": 30,
-          "10": 30,
-          "11": 30
-        }
-      },
-      "30": true,
-      "40": {
-        "chains": {
-          "1": 41,
-          "5": 41,
-          "6": 41,
-          "8": 41,
-          "9": 41,
-          "10": 41,
-          "11": 41
-        }
-      },
-      "41": true,
-      "*": {
-        "noInterrupt": [
-          "1-0",
-          "1-2",
-          3,
-          4,
-          12,
-          19,
-          20
-        ],
-        "inPlace": {
-          "movement": [
-            {
-              "duration": 2140,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            }
-          ],
-          "distance": 0
-        },
-        "abnormals": {
-          "29030": {
-            "speed": 1.25
-          }
-        }
-      }
-    },
-    "4": { // Sundering Strike
-      "0": {
-        "chains": {
-          "1": 30,
-          "3": 30,
-          "4": 30,
-          "5": 30,
-          "6": 30,
-          "8": 30,
-          "9": 30,
-          "10": 30,
-          "11": 30,
-          "12": 30
-        },
-        "inPlace": {
-          "movement": [
-            [],
-            [
-              {
-                "duration": 1757,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              }
-            ],
-            []
-          ],
-          "distance": [
-            0,
-            0,
-            0
-          ]
-        }
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "inPlace": {
-          "movement": [
-            [
-              {
-                "duration": 1757,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              }
-            ],
-            []
-          ],
-          "distance": [
-            0,
-            0
-          ]
-        },
-        "noRetry": true
-      },
-      "31": {
-        "inPlace": {
-          "movement": [
-            [
-              {
-                "duration": 1757,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              }
-            ],
-            []
-          ],
-          "distance": [
-            0,
-            0
-          ]
-        }
-      },
-      "40": {
-        "chains": {
-          "1": 60,
-          "3": 60,
-          "4": 60,
-          "5": 60,
-          "6": 60,
-          "8": 60,
-          "9": 60,
-          "10": 60,
-          "11": 60,
-          "12": 60
-        },
-        "inPlace": {
-          "movement": [
-            [],
-            [
-              {
-                "duration": 1757,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              }
-            ],
-            []
-          ],
-          "distance": [
-            0,
-            0,
-            0
-          ]
-        }
-      },
-      "60": {
-        "connectSkillArrow": true,
-        "inPlace": {
-          "movement": [
-            [
-              {
-                "duration": 1757,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              }
-            ],
-            []
-          ],
-          "distance": [
-            0,
-            0
-          ]
-        },
-        "noRetry": true
-      },
-      "61": {
-        "inPlace": {
-          "movement": [
-            [
-              {
-                "duration": 1757,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              }
-            ],
-            []
-          ],
-          "distance": [
-            0,
-            0
-          ]
-        }
-      },
-      "*": {
-        "noInterrupt": [
-          1,
-          4,
-          8,
-          9,
-          10,
-          11,
-          "12-0",
-          "12-1",
-          20
-        ],
-        "noRetry": true
-      }
-    },
-    "5": { // Grim Strike
-      "0": {
-        "noInterrupt": [
-          "1-0",
-          "1-2",
-          4,
-          12,
-          20
-        ],
-        "chains": {
-          "1": 30,
-          "3": 30,
-          "5": 30,
-          "6": 30,
-          "8": 30,
-          "9": 30,
-          "10": 30,
-          "11": 30,
-          "19": 30,
-          "21": 30
-        }
-      },
-      "30": true,
-      "31": {
-        "chains": {
-          "1": 32,
-          "3": 32,
-          "5": 32,
-          "6": 32,
-          "8": 32,
-          "9": 32,
-          "10": 32,
-          "11": 32,
-          "19": 32,
-          "21": 32
-        }
-      },
-      "32": true,
-      "*": {
-        "inPlace": {
-          "movement": [
-            [
-              {
-                "duration": 2416,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              }
-            ],
-            [
-              {
-                "duration": 1065,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              }
-            ]
-          ],
-          "distance": [
-            0,
-            0
-          ]
-        }
-      }
-    },
-    "6": { // Death Spiral
-      "0": {
-        "chains": {
-          "1": 30,
-          "3": 30,
-          "4": 30,
-          "5": 30,
-          "6": 30,
-          "8": 30,
-          "9": 30,
-          "10": 30,
-          "11": 30,
-          "12": 30
-        }
-      },
-      "30": true,
-      "31": true,
-      "40": {
-        "chains": {
-          "1": 41,
-          "3": 41,
-          "4": 41,
-          "5": 41,
-          "6": 41,
-          "8": 41,
-          "9": 41,
-          "10": 41,
-          "11": 41,
-          "12": 41
-        }
-      },
-      "41": true,
-      "42": true,
-      "*": {
-        "noRetry": true
-      }
-    },
-    "8": { // Whipsaw
-      "0": {
-        "chains": {
-          "1": 30,
-          "3": 30,
-          "10": 30
-        }
-      },
-      "30": true,
-      "40": {
-        "chains": {
-          "1": 41,
-          "3": 41,
-          "10": 41
-        }
-      },
-      "41": true,
-      "*": {
-        "noInterrupt": [
-          4,
-          5,
-          6,
-          8,
-          9,
-          11,
-          12,
-          20
-        ]
-      }
-    },
-    "9": { // Smite
-      "0": {
-        "noInterrupt": [
-          1,
-          3,
-          4,
-          5,
-          6,
-          8,
-          9,
-          10,
-          11,
-          12,
-          20
-        ],
-        "distance": 168,
-        "inPlace": {
-          "movement": [
-            {
-              "duration": 1832,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            }
-          ],
-          "distance": 0
-        }
-      }
-    },
-    "10": { // Pendulum Strike
-      "0": {
-        "chains": {
-          "1": 30,
-          "3": 30,
-          "4": 30,
-          "5": 30,
-          "6": 30,
-          "8": 30,
-          "9": 30,
-          "10": 30,
-          "11": 30,
-          "12": 30
-        }
-      },
-      "30": true,
-      "40": {
-        "chains": {
-          "1": 41,
-          "3": 41,
-          "4": 41,
-          "5": 41,
-          "6": 41,
-          "8": 41,
-          "9": 41,
-          "10": 41,
-          "11": 41,
-          "12": 41
-        }
-      },
-      "41": true,
-      "*": {
-        "noInterrupt": [
-          19
-        ],
-        "moveDir": 1
-      }
-    },
-    "11": { // Shadow Lash
-      "0": {
-        "triggerAbnormal": {
-          "10151040": 2000
-        }
-      },
-      "1": {
-        "triggerAbnormal": {
-          "10151041": 2000
-        }
-      },
-      "2": {
-        "triggerAbnormal": {
-          "10151042": 2000
-        }
-      },
-      "3": true,
-      "*": {
-        "noInterrupt": [
-          19
-        ],
-        "noRetry": true
-      }
-    },
-    "12": { // Shadow Burst
-      "0": {
-        "noInterrupt": [
-          1,
-          3,
-          "4-0",
-          "4-30",
-          "4-40",
-          "4-60",
-          5,
-          6,
-          8,
-          9,
-          10,
-          11,
-          20
-        ],
-        "chains": {
-          "12": 1
-        }
-      },
-      "1": true,
-      "31": true
-    },
-    "14": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "15": { // Retribution
-      "30": {
-        "fixedSpeed": true
-      },
-      "81": true
-    },
-    "16": { // Shadow Reaping
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "19": { // Dark Harvest
-      "0": {
-        "noInterrupt": [
-          21
-        ],
-        "requiredBuff": 10151220,
-        "chains": {
-          "1": 30,
-          "3": 30,
-          "4": 30,
-          "5": 30,
-          "6": 30,
-          "8": 30,
-          "9": 30,
-          "10": 30,
-          "11": 30,
-          "12": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "inPlace": {
-          "movement": [
-            {
-              "duration": 2122,
-              "speed": 1,
-              "unk": 1,
-              "distance": 0
-            }
-          ],
-          "distance": 0
-        }
-      }
-    },
-    "21": { // Recall Scythes
-      "0": {
-        "noInterrupt": [
-          21
-        ],
-        "chains": {
-          "1": 30,
-          "3": 30,
-          "4": 30,
-          "5": 30,
-          "6": 30,
-          "8": 30,
-          "9": 30,
-          "10": 30,
-          "11": 30,
-          "12": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "requiredBuff": 10151221
-      }
-    },
-    "23": { // Binding Scythes
-      "31": {
-        "fixedSpeed": true
-      },
-      "33": {
-        "onlyTarget": true
-      }
-    },
-    "40": { // Shadow Step
-      "0": true,
-      "30": true,
-      "*": {
-        "forceClip": true,
-        "abnormalChains": {
-          "10151000": 30
-        }
-      }
-    },
-    "*": {
-      "consumeAbnormal": [
-        10151020,
-        10151021,
-        10151022,
-        10151023,
-        10151040,
-        10151041,
-        10151042
-      ]
-    }
-  },
-  /* Gunner (9) */
-  "9": {
-    "1": { // Blast
-      "1": true,
-      "2": {
-        "noRetry": true
-      },
-      "20": {
-        "type": "userProjectile",
-        "flyingSpeed": 800,
-        "flyingDistance": 500,
-        "explodeOnHit": true
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noInterrupt": [
-          1
-        ],
-        "projectiles": [
-          20
-        ],
-        "triggerAbnormal": {
-          "10152011": 3100
-        },
-        "hasChains": true
-      }
-    },
-    "2": { // Bombardment
-      "0": {
-        "type": "lockon",
-        "fixedSpeed": true
-      },
-      "1": {
-        "type": "lockonCast"
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "3": { // Scattershot
-      "1": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "moveDir": 1,
-        "noInterrupt": [
-          3,
-          20
-        ],
-        "glyphs": {
-          "30007": {
-            "movement": [
-              {
-                "duration": 394,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              },
-              {
-                "duration": 111,
-                "speed": 1,
-                "unk": 1,
-                "distance": 0
-              },
-              {
-                "duration": 1333,
-                "speed": 1.8,
-                "unk": 1,
-                "distance": 64.8
-              }
-            ],
-            "distance": 0.6
-          }
-        },
-        "hasChains": true
-      }
-    },
-    "4": { // Point Blank
-      "1": {
-        "noInterrupt": [
-          4
-        ],
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        },
-        "noRetry": true
-      },
-      "2": {
-        "noInterrupt": [
-          4
-        ],
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        },
-        "noRetry": true
-      },
-      "3": {
-        "moveDir": 1,
-        "categoryChains": {
-          "91004": 4
-        }
-      },
-      "4": {
-        "moveDir": 1
-      },
-      "30": {
-        "noRetry": true
-      },
-      "*": {
-        "noInterrupt": [
-          "4-3",
-          "4-4"
-        ],
-        "hasChains": true
-      }
-    },
-    "5": { // Burst Fire / Targeted Burst Fire
-      "0": {
-        "noRetry": true
-      },
-      "1": {
-        "fixedSpeed": true,
-        "stamina": 75,
-        "instantStamina": true,
-        "level": [
-          {
-            "stamina": 50
-          },
-          {
-            "stamina": 55
-          },
-          {
-            "stamina": 60
-          },
-          {
-            "stamina": 65
-          }
-        ]
-      },
-      "10": {
-        "noRetry": true
-      },
-      "11": {
-        "fixedSpeed": true,
-        "stamina": 75,
-        "instantStamina": true
-      },
-      "20": {
-        "noRetry": true
-      },
-      "21": {
-        "fixedSpeed": true,
-        "stamina": 90,
-        "instantStamina": true
-      },
-      "*": {
-        "noInterrupt": [
-          "9-0",
-          "9-10",
-          "9-20"
-        ]
-      }
-    },
-    "6": { // Time Bomb
-      "1": true,
-      "2": true,
-      "20": {
-        "type": "userProjectile",
-        "flyingSpeed": 800
-      },
-      "*": {
-        "fixedSpeed": true,
-        "projectiles": [
-          20
-        ],
-        "triggerAbnormal": {
-          "10152010": 3100,
-          "10152084": 4100
-        }
-      }
-    },
-    "7": { // Arcane Barrage
-      "1": {
-        "fixedSpeed": true,
-        "noInterrupt": [
-          7
-        ],
-        "triggerAbnormal": {
-          "10152010": 3100
-        },
-        "noRetry": true
-      },
-      "2": {
-        "fixedSpeed": true,
-        "noInterrupt": [
-          7
-        ],
-        "triggerAbnormal": {
-          "10152010": 3100
-        },
-        "noRetry": true
-      },
-      "3": true
-    },
-    "9": { // Mana Missiles
-      "0": {
-        "autoRelease": 0,
-        "level": {
-          "9": {
-            "releaseChain": {
-              "connectSkills": [
-                400102,
-                400132
-              ],
-              "chain": 12,
-              "grant": true
-            }
-          }
-        }
-      },
-      "10": {
-        "projectiles": [
-          21,
-          22
-        ],
-        "noRetry": true
-      },
-      "11": {
-        "projectiles": [
-          21,
-          22,
-          23,
-          24,
-          25
-        ],
-        "noRetry": true
-      },
-      "12": {
-        "projectiles": [
-          31,
-          32,
-          33,
-          34,
-          35
-        ],
-        "noRetry": true
-      },
-      "21": {
-        "type": "userProjectile",
-        "flyingSpeed": 600,
-        "flyingDistance": 750
-      },
-      "22": {
-        "type": "userProjectile",
-        "flyingSpeed": 500,
-        "flyingDistance": 750
-      },
-      "23": {
-        "type": "userProjectile",
-        "flyingSpeed": 400,
-        "flyingDistance": 750
-      },
-      "24": {
-        "type": "userProjectile",
-        "flyingSpeed": 350,
-        "flyingDistance": 750
-      },
-      "25": {
-        "type": "userProjectile",
-        "flyingSpeed": 300,
-        "flyingDistance": 750
-      },
-      "31": {
-        "type": "userProjectile",
-        "flyingSpeed": 600,
-        "flyingDistance": 750
-      },
-      "32": {
-        "type": "userProjectile",
-        "flyingSpeed": 500,
-        "flyingDistance": 750
-      },
-      "33": {
-        "type": "userProjectile",
-        "flyingSpeed": 400,
-        "flyingDistance": 750
-      },
-      "34": {
-        "type": "userProjectile",
-        "flyingSpeed": 350,
-        "flyingDistance": 750
-      },
-      "35": {
-        "type": "userProjectile",
-        "flyingSpeed": 300,
-        "flyingDistance": 750
-      },
-      "*": {
-        "moveDir": 1
-      }
-    },
-    "10": { // Arc Bomb
-      "1": {
-        "projectiles": [
-          20
-        ],
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "2": {
-        "projectiles": [
-          20
-        ],
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "20": {
-        "type": "userProjectile",
-        "delay": 450,
-        "flyingSpeed": 700,
-        "flyingDistance": 350,
-        "level": [
-          {
-            "flyingSpeed": 800
-          },
-          {
-            "flyingSpeed": 800
-          },
-          {
-            "flyingSpeed": 800
-          },
-          {
-            "flyingSpeed": 800
-          },
-          {
-            "flyingSpeed": 800
-          },
-          {
-            "flyingSpeed": 800
-          },
-          {
-            "flyingSpeed": 800
-          },
-          {
-            "flyingSpeed": 800
-          }
-        ]
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "projectiles": [
-          20
-        ],
-        "noRetry": true
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "11": { // Rocket Jump
-      "1": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 31,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 31,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "30": true,
-      "31": true,
-      "*": {
-        "noInterrupt": [
-          15
-        ],
-        "hasChains": true
-      }
-    },
-    "13": { // Balder's Vengeance
-      "1": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "*": {
-        "noInterrupt": [
-          13
-        ],
-        "moveDir": 1,
-        "noRetry": true
-      }
-    },
-    "15": { // Replenishment
-      "1": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "noInterrupt": [
-          15
-        ]
-      }
-    },
-    "18": { // HB
-      "1": true,
-      "2": true,
-      "*": {
-        "fixedSpeed": true
-      }
-    },
-    "19": { // ST
-      "1": {
-        "projectiles": [
-          20
-        ],
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "2": {
-        "projectiles": [
-          20
-        ],
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "20": {
-        "type": "userProjectile",
-        "delay": 350,
-        "flyingSpeed": 700,
-        "flyingDistance": 450
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "projectiles": [
-          20
-        ],
-        "noRetry": true
-      },
-      "*": {
-        "noRetry": true
-      }
-    },
-    "20": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "40": { // Rolling Reload / Dashing Reload
-      "1": {
-        "abnormalChains": {
-          "10152354": 31
-        }
-      },
-      "2": {
-        "abnormalChains": {
-          "10152354": 32
-        }
-      },
-      "31": {
-        "consumeAbnormal": 10152354,
-        "triggerAbnormal": {
-          "10152010": 3100,
-          "10152012": 3100
-        }
-      },
-      "32": {
-        "consumeAbnormal": 10152354,
-        "triggerAbnormal": {
-          "10152010": 3100,
-          "10152012": 3100
-        }
-      },
-      "*": {
-        "fixedSpeed": true,
-        "triggerAbnormal": {
-          "10152010": 3100,
-          "10152012": 3100,
-          "10152354": 4000
-        },
-        "forceClip": true
-      }
-    },
-    "41": { // Modular Weapon System
-      "1": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "hasChains": true
-      }
-    },
-    "42": { // Detonate
-      "1": {
-        "fixedSpeed": true,
-        "triggerAbnormal": {
-          "10152011": 3100
-        }
-      }
-    },
-    "43": { // Remote Trigger
-      "1": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "3": {
-        "categoryChains": {
-          "91002": 50,
-          "91003": 50,
-          "91004": 50,
-          "91005": 50,
-          "91009": 50,
-          "91010": 50,
-          "91011": 50,
-          "91013": 50,
-          "91015": 50,
-          "91018": 50,
-          "91019": 50,
-          "91040": 50,
-          "91041": 50,
-          "91043": 50,
-          "91047": 50,
-          "91007,10001": 50
-        }
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "31": true,
-      "50": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "51": true,
-      "*": {
-        "moveDir": 1,
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "44": { // Balder's Vengeance (Modular Weapon System)
-      "1": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "*": {
-        "noInterrupt": [
-          44
-        ],
-        "moveDir": 1,
-        "noRetry": true
-      }
-    },
-    "47": { // Obliteration
-      "1": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "91002": 30,
-          "91003": 30,
-          "91004": 30,
-          "91005": 30,
-          "91009": 30,
-          "91010": 30,
-          "91011": 30,
-          "91013": 30,
-          "91015": 30,
-          "91018": 30,
-          "91019": 30,
-          "91040": 30,
-          "91041": 30,
-          "91043": 30,
-          "91047": 30,
-          "91007,10001": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "requiredBuff": 10152340,
-        "moveDir": 1,
-        "hasChains": true
-      }
-    },
-    "*": {
-      "consumeAbnormal": [
-        10152010,
-        10152011
-      ]
-    }
-  },
-  /* Brawler (10) */
-  "10": {
-    "1": { // Punch
-      "0": {
-        "categoryChains": {
-          "92002": 30,
-          "92003": 30,
-          "92004": 30,
-          "92005": 30,
-          "92006": 30,
-          "92007": 30,
-          "92008": 30,
-          "92009": 30,
-          "92010": 30,
-          "92013": 30,
-          "92014": 30,
-          "92015": 30,
-          "92016": 30,
-          "92017": 30,
-          "92018": 30,
-          "92019": 30,
-          "92020": 30,
-          "92021": 30,
-          "92022": 30,
-          "92024": 30,
-          "92026": 30,
-          "92040": 30,
-          "92001,10000": 1,
-          "92001,10001": 2,
-          "92001,10002": 3,
-          "92001,10010": 32
-        }
-      },
-      "1": true,
-      "2": true,
-      "3": true,
-      "30": true,
-      "31": true,
-      "32": true,
-      "*": {
-        "noInterrupt": [
-          "1-3"
-        ],
-        "triggerAbnormal": {
-          "10153060": 3000
-        },
-        "consumeAbnormalEnd": 10153060,
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "2": { // Counter
-      "1": {
-        "triggerAbnormal": {
-          "10153001": 2147483647
-        },
-        "consumeAbnormalEnd": 10153001
-      },
-      "2": {
-        "triggerAbnormal": {
-          "10153002": 2147483647
-        },
-        "consumeAbnormalEnd": 10153002
-      },
-      "3": {
-        "triggerAbnormal": {
-          "10153003": 2147483647
-        },
-        "consumeAbnormalEnd": 10153003
-      },
-      "4": {
-        "triggerAbnormal": {
-          "10153004": 2147483647
-        },
-        "consumeAbnormalEnd": 10153004
-      },
-      "10": {
-        "fixedSpeed": true,
-        "triggerAbnormal": {
-          "10153006": 2147483647
-        },
-        "consumeAbnormalEnd": 10153006
-      },
-      "11": {
-        "fixedSpeed": true,
-        "triggerAbnormal": {
-          "10153005": 2147483647
-        },
-        "consumeAbnormalEnd": 10153005
-      },
-      "12": {
-        "categoryChains": {
-          "92001,10000": 1,
-          "92001,10001": 2,
-          "92001,10002": 3,
-          "92001,10003": 4,
-          "92001,10010": 1
-        }
-      },
-      "*": {
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "3": { // Divine Wrath
-      "0": true,
-      "1": {
-        "type": "lockonCast",
-        "setEndpointStage": 1
-      },
-      "*": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "4": { // Ground Pound
-      "0": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "5": { // Bullrush
-      "0": {
-        "fixedSpeed": true,
-        "noRetry": true
-      }
-    },
-    "6": { // Haymaker
-      "1": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "31": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "7": { // Roundhouse Kick
-      "0": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "noInterrupt": [
-          7
-        ],
-        "hasChains": true
-      }
-    },
-    "8": { // Piledriver
-      "1": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "31": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "9": { // Jackhammer
-      "1": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "31": true,
-      "*": {
-        "noInterrupt": [
-          9
-        ],
-        "fixedSpeed": true,
-        "hasChains": true
-      }
-    },
-    "10": { // Counterpunch
-      "0": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "requiredBuff": 10153000,
-        "hasChains": true
-      }
-    },
-    "12": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "13": { // Provoke
-      "1": true,
-      "2": true,
-      "*": {
-        "fixedSpeed": true
-      }
-    },
-    "14": { // Infuriate
-      "1": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "15": { // High Kick
-      "0": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "requiredBuff": 10153503,
-        "hasChains": true
-      }
-    },
-    "16": { // Flip Kick
-      "1": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "18": { // Growing Fury
-      "1": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "requiredBuff": 10153050,
-        "hasChains": true
-      }
-    },
-    "19": { // Invigorating Rage
-      "1": true,
-      "2": true,
-      "*": {
-        "fixedSpeed": true,
-        "stamina": 1500,
-        "instantStamina": true
-      }
-    },
-    "21": { // Mounting Rage
-      "1": true,
-      "2": true,
-      "*": {
-        "fixedSpeed": true
-      }
-    },
-    "22": { // Flying Kick
-      "0": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "noInterrupt": [
-          22
-        ],
-        "hasChains": true
-      }
-    },
-    "24": { // One-Inch Punch
-      "1": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "800": 30
-        }
-      },
-      "30": true,
-      "31": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "26": { // Rythmic Blows
-      "0": {
-        "categoryChains": {
-          "800": 2
-        }
-      },
-      "1": true,
-      "2": true,
-      "3": true,
-      "4": true,
-      "5": true,
-      "6": true,
-      "7": true,
-      "*": {
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "40": { // Quick Dash
-      "0": true,
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "forceClip": true,
-        "abnormalChains": {
-          "10153150": 30
-        },
-        "noRetry": true
-      }
-    }
-  },
-  /* Ninja (11) */
-  "11": {
-    "1": { // Combo Attack
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "1": {
-        "triggerAbnormal": {
-          "10154001": 1500
-        }
-      },
-      "2": {
-        "triggerAbnormal": {
-          "10154002": 1400
-        }
-      },
-      "3": {
-        "triggerAbnormal": {
-          "10154003": 1400
-        }
-      },
-      "4": {
-        "triggerAbnormal": {
-          "10154004": 1400
-        }
-      },
-      "5": {
-        "triggerAbnormal": {
-          "10154005": 1600
-        }
-      },
-      "6": {
-        "triggerAbnormal": {
-          "10154006": 100
-        }
-      },
-      "30": true,
-      "40": {
-        "categoryChains": {
-          "900": 70
-        }
-      },
-      "41": {
-        "triggerAbnormal": {
-          "10154001": 1500
-        }
-      },
-      "42": {
-        "triggerAbnormal": {
-          "10154002": 1400
-        }
-      },
-      "43": {
-        "triggerAbnormal": {
-          "10154003": 1400
-        }
-      },
-      "44": {
-        "triggerAbnormal": {
-          "10154004": 1400
-        }
-      },
-      "45": {
-        "triggerAbnormal": {
-          "10154005": 1600
-        }
-      },
-      "46": {
-        "triggerAbnormal": {
-          "10154006": 100
-        }
-      },
-      "70": true,
-      "*": {
-        "fixedSpeed": true,
-        "triggerAbnormal": {
-          "10154000": 1650
-        },
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "2": { // Shadow Jump
-      "0": true,
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "forceClip": true,
-        "abnormalChains": {
-          "10154010": 30
-        }
-      }
-    },
-    "3": { // Leaves on the Wind
-      "0": {
-        "categoryChains": {
-          "911": 40,
-          "9999,900": 30
-        }
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "40": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "4": { // Jagged Path
-      "1": {
-        "fixedSpeed": true,
-        "length": 665,
-        "distance": 469
-      },
-      "10": true,
-      "11": true
-    },
-    "5": { // Impact Bomb
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "*": {
-        "moveDir": 1,
-        "noInterrupt": [
-          5
-        ],
-        "forceClip": true,
-        "noRetry": true
-      }
-    },
-    "6": { // One Thousand Cuts
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "1": {
-        "fixedSpeed": true,
-        "length": 300,
-        "distance": 246
-      },
-      "10": true,
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "7": { // Decoy Jutsu
-      "0": {
-        "onlyTarget": true
-      }
-    },
-    "8": { // Fire Avalanche
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "1": true,
-      "2": true,
-      "30": true,
-      "31": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "51": {
-        "categoryChains": {
-          "900": 52
-        }
-      },
-      "52": true,
-      "*": {
-        "abnormals": {
-          "32033": {
-            "speed": 1.2
-          },
-          "32058": {
-            "speed": 1.3
-          }
-        },
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "9": { // Smoke Bomb
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      }
-    },
-    "10": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "11": { // Focus
-      "0": true,
-      "50": true,
-      "*": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23
-        ]
-      }
-    },
-    "12": { // Skyfall
-      "1": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "13": { // Circle of Steel
-      "1": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "14": { // Double Cut
-      "1": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "2": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "15": { // Burning Heart
-      "1": true,
-      "2": true,
-      "3": true,
-      "4": true,
-      "5": true,
-      "6": true,
-      "7": true,
-      "8": true,
-      "9": true,
-      "10": true,
-      "31": {
-        "categoryChains": {
-          "900": 32
-        }
-      },
-      "32": true,
-      "*": {
-        "stamina": 100,
-        "instantStamina": true,
-        "abnormals": {
-          "32033": {
-            "speed": 1.2
-          },
-          "32058": {
-            "speed": 1.3
-          }
-        }
-      }
-    },
-    "16": { // Death Blossom
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "hasChains": true
-      }
-    },
-    "17": { // Attunement
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "18": { // Bladestorm
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "19": { // Chakra Thrust
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "20": { // Clone Jutsu
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "21": { // Boomerang Shuriken
-      "0": {
-        "categoryChains": {
-          "93003": 15
-        }
-      },
-      "11": {
-        "categoryChains": {
-          "93003": 17
-        }
-      },
-      "12": {
-        "categoryChains": {
-          "93003": 16
-        }
-      },
-      "13": {
-        "categoryChains": {
-          "93003": 18
-        }
-      },
-      "15": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "16": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "17": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "18": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "50": true,
-      "51": true,
-      "*": {
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "22": { // Quick Attack
-      "10": {
-        "noInterrupt": [
-          22
-        ],
-        "categoryChains": {
-          "93019": 30,
-          "9999,900": 20
-        }
-      },
-      "20": true,
-      "30": true,
-      "40": {
-        "categoryChains": {
-          "93019": 60,
-          "9999,900": 50
-        }
-      },
-      "50": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "60": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      }
-    },
-    "23": { // Inner Harmony
-      "0": {
-        "categoryChains": {
-          "900": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "*": {
-      "consumeAbnormal": [
-        10154000,
-        10154001,
-        10154002,
-        10154003,
-        10154004,
-        10154005,
-        10154006
-      ]
-    }
-  },
-  /* Valkyrie (12) */
-  "12": {
-    "1": { // Slash
-      "0": {
-        "triggerAbnormal": {
-          "10155006": 4000
-        },
-        "consumeAbnormalEnd": 10155006,
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "1": {
-        "triggerAbnormal": {
-          "10155007": 4000
-        },
-        "consumeAbnormalEnd": 10155007
-      },
-      "2": {
-        "triggerAbnormal": {
-          "10155008": 4000
-        },
-        "consumeAbnormalEnd": 10155008
-      },
-      "3": true,
-      "30": {
-        "triggerAbnormal": {
-          "10155006": 4000
-        },
-        "consumeAbnormalEnd": 10155006
-      },
-      "*": {
-        "noInterrupt": [
-          "1-3"
-        ],
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "2": { // Overhead Slash
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "3": { // Glaive Strike
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "requiredBuff": 10155113,
-        "hasChains": true
-      }
-    },
-    "4": { // Charge
-      "0": {
-        "fixedSpeed": true,
-        "length": 1100,
-        "distance": 436,
-        "noInterrupt": [
-          "4-0"
-        ]
-      },
-      "10": true,
-      "11": {
-        "noInterrupt": [
-          1,
-          2,
-          3,
-          "4-11",
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          23,
-          24,
-          25
-        ]
-      }
-    },
-    "5": { // Maelstrom
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "6": { // Leaping Strike
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "7": { // Spinning Death
-      "0": {
-        "triggerAbnormal": {
-          "10155070": 5000
-        },
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "1": {
-        "consumeAbnormal": 10155070,
-        "triggerAbnormal": {
-          "10155071": 5000
-        }
-      },
-      "2": {
-        "consumeAbnormal": 10155071,
-        "triggerAbnormal": {
-          "10155072": 1
-        }
-      },
-      "30": {
-        "triggerAbnormal": {
-          "10155070": 5000
-        }
-      },
-      "*": {
-        "noInterrupt": [
-          "7-2"
-        ],
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "8": { // Titansbane
-      "0": {
-        "fixedSpeed": true,
-        "categoryChains": {
-          "750": 30,
-          "13008,10000": 1
-        }
-      },
-      "1": true,
-      "30": {
-        "fixedSpeed": true
-      },
-      "*": {
-        "hasChains": true
-      }
-    },
-    "9": { // Ground Bash
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "requiredBuff": 10155112,
-        "hasChains": true
-      }
-    },
-    "10": { // Dream Slash
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": {
-        "connectSkillArrow": true,
-        "noRetry": true
-      },
-      "*": {
-        "noInterrupt": [
-          10
-        ],
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "11": { // Shining Crescent
-      "0": {
-        "noInterrupt": [
-          11
-        ],
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "1": {
-        "categoryChains": {
-          "750": 31
-        }
-      },
-      "30": true,
-      "31": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "12": { // Ragnarok
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "13": { // Bloodflower
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "14": { // Evasion
-      "0": true,
-      "1": true,
-      "*": {
-        "fixedSpeed": true,
-        "forceClip": true
-      }
-    },
-    "15": { // Windslash
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "16": { // Runeburst
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "fixedSpeed": true,
-        "hasChains": true
-      }
-    },
-    "17": { // Balder's Tears
-      "0": {
-        "fixedSpeed": true
-      }
-    },
-    "18": { // Retaliate
-      "0": {
-        "noRetry": true
-      }
-    },
-    "19": { // Reclamation
-      "0": {
-        "categoryChains": {
-          "750": 30
-        }
-      },
-      "30": true,
-      "*": {
-        "hasChains": true
-      }
-    },
-    "20": { // Backstab
-      "0": {
-        "distance": 0,
-        "onlyTarget": true
-      }
-    },
-    "21": { // Dark Herald
-      "0": {
-        "requiredBuff": 10155201,
-        "fixedSpeed": true
-      }
-    },
-    "23": { // Gungir's Bite
-      "0": {
-        "triggerAbnormal": {
-          "10155531": 1000
-        },
-        "categoryChains": {
-          "750": 1
-        }
-      },
-      "1": {
-        "triggerAbnormal": {
-          "10155531": 1000
-        }
-      },
-      "2": true,
-      "*": {
-        "abnormals": {
-          "10155531": {
-            "disableSkill": true
-          }
-        },
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "24": { // Twilight Waltz
-      "0": {
-        "triggerAbnormal": {
-          "10155543": 1000
-        },
-        "categoryChains": {
-          "750": 1
-        }
-      },
-      "1": {
-        "triggerAbnormal": {
-          "10155543": 1000
-        }
-      },
-      "2": {
-        "triggerAbnormal": {
-          "10155543": 1000
-        }
-      },
-      "3": true,
-      "4": true,
-      "*": {
-        "abnormals": {
-          "10155543": {
-            "disableSkill": true
-          }
-        },
-        "hasChains": true,
-        "noRetry": true
-      }
-    },
-    "25": { // Godsfall
-      "0": {
-        "triggerAbnormal": {
-          "10155511": 2000
-        },
-        "categoryChains": {
-          "772": 31,
-          "9999,750": 1
-        }
-      },
-      "1": {
-        "triggerAbnormal": {
-          "10155511": 2000
-        }
-      },
-      "2": {
-        "distance": [
-          -313.28,
-          463.28
-        ],
-        "categoryChains": {
-          "772": 32,
-          "9999,750": 3
-        }
-      },
-      "3": {
-        "distance": [
-          -313.28,
-          463.28
-        ]
-      },
-      "31": {
-        "triggerAbnormal": {
-          "10155511": 2000
-        }
-      },
-      "32": {
-        "distance": [
-          -313.28,
-          463.28
-        ]
-      },
-      "*": {
-        "abnormals": {
-          "10155511": {
-            "disableSkill": true
-          }
-        },
-        "hasChains": true,
-        "noRetry": true
-      }
-    }
-  },
-  /* All-class (*) */
-  "*": {
-    "9010100": true, // Racial teleport
-    "9020100": { // Racial buff 1
-      "fixedSpeed": true
-    },
-    "9030100": { // Racial buff 2
-      "fixedSpeed": true
-    },
-    "9100100": { // Apex Urgency
-      "fixedSpeed": true
-    }
-  }
-};
+	'*': { // All-class
+		9010100: true, // Aman Recall Home, Kaitor, race ability.
+		9020100: { fixedSpeed: true }, // Aman Endurance, race ability.
+		9030100: { fixedSpeed: true } // Popori Wind Walk, race ability.
+	},
+	0: { // Warrior
+		1: { // Warrior Combo Attack
+			0: true, // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500,
+			1: true, // 10101, 10201, 10301, 10401, 10501, 10601, 10701, 10801, 10901, 11001, 11101, 11201, 11301, 11401, 11501,
+			2: true, // 10102, 10202, 10302, 10402, 10502, 10602, 10702, 10802, 10902, 11002, 11102, 11202, 11302, 11402, 11502,
+			3: true // 10103, 10203, 10303, 10403, 10503, 10603, 10703, 10803, 10903, 11003, 11103, 11203, 11303, 11403, 11503
+		},
+		2: { // Warrior Dodge Move Start
+			0: { forceClip: true,stamina: 500, instantStamina: true} // 20100, 20200, 20300
+		},
+		3: { // Warrior Dual Sword Dancing Attack
+			0: true // 30100, 30200, 30300, 30400, 30500, 30600, 30700, 30800, 30900, 31000, 31100, 31200
+		},
+		4: { // Warrior Concentrate Attack Attack Single
+			0: {noInterrupt: [1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 16, 17, 19, 22, 23, 28, 29, 30, 31, 34, 35, 36, 37, 38, 39, 41, 42]}, // 40100, 40200, 40300, 40400, 40500, 40600, 40700, 40800, 40900, 41000, 41100, 41200, 41300, 41400, 41500,
+			30: true // 40130, 40230, 40330, 40430, 40530, 40630, 40730, 40830, 40930, 41030, 41130, 41230, 41330, 41430, 41530
+		},
+		5: { // Warrior Deafening Roar Start
+			0: true // 50100, 50200, 50300, 50400, 50500, 50600, 50700, 50800, 50900, 51000, 51100, 51200, 51300, 59100
+		},
+		6: { // Warrior Voidtrap Start
+			0: true, // 60100, 60200,
+			20: true // 60120, 60220
+		},
+		7: { // Warrior Inspiring Roar Start
+			0: true // 70100, 70200
+		},
+		8: { // Warrior Iron Will Aggro ON
+			0: { stamina: 1000, abnormals: { 102500: { disableSkill: true } } }, // 80100, 80200, 80300, 80400, 80500, 80600,
+			50: true // 80150, 80250, 80350, 80450, 80550, 80650
+		},
+		9: { // Warrior Iron Will Defence ON
+			0: { stamina: 1000 }, // 90100, 90200, 90300, 90400, 90500, 90600,
+			50: true // 90150, 90250, 90350, 90450, 90550, 90650
+		},
+		10: { // Warrior Evasion Attack Attack
+			0: true // 100100, 100200, 100300, 100400, 100500, 100600, 100700, 100800, 100900, 101000
+		},
+		11: { // Warrior Poison Blow Attack
+			0: true // 110100, 110200, 110300, 110400, 110500, 110600, 110700, 110800, 110900, 111000, 111100
+		},
+		12: { // Warrior Down Blow Attack
+			0: true // 120100, 120200, 120300, 120400, 120500, 120600, 120700, 120800, 120900, 121000, 121100
+		},
+		13: { // Warrior Rising Attack Attack
+			0: true // 130100, 130200, 130300, 130400, 130500, 130600, 130700, 130800, 130900, 131000, 131100, 131200
+		},
+		14: { // Warrior Slow ON
+			0: true, // 140100, 140200,
+			50: true // 140150, 140250
+		},
+		15: { // Warrior MP Refresher Cast
+			0: true // 150100, 150200
+		},
+		16: { // Warrior Rushing Slash Attack
+			'*': { noInterrupt: [2, 10, 22, 29, 30, 32, 37, 38, 40, 41] },
+			0: {fixedSpeed: true, noRetry: true}, // 160100, 160200, 160300, 160400, 160500, 160600, 160700, 160800, 160900, 161000,
+			1: true // 160101, 160201, 160301, 160401, 160501, 160601, 160701, 160801, 160901, 161001
+		},
+		17: { // Warrior All Round Slash Attack
+			0: true // 170100, 170200, 170300, 170400, 170500, 170600, 170700, 170800, 170900, 171000, 171100, 171200, 171300, 171400
+		},
+		18: { // Warrior Aggravating Strike Attack
+			'*': { noInterrupt: [32] },
+			0: true // 180100, 180200, 180300, 180400, 180500, 180600, 180700, 180800, 180900, 181000, 181100, 181200, 181300, 181400
+		},
+		19: { // Warrior Tenacious Attack Attack
+			0: true, // 190100, 190200, 190300, 190400, 190500, 190600, 190700, 190800, 190900, 191000, 191100, 191200, 191300,
+			1: true // 190101, 190201, 190301, 190401, 190501, 190601, 190701, 190801, 190901, 191001, 191101, 191201, 191301
+		},
+		20: { // Warrior Deadly Will Cast
+			0: {fixedSpeed: true,} // 200100, 200200, 200300, 200400
+		},
+		21: { // Warrior Hard Slash Attack
+			0: true // 210100, 210200, 210300, 210400
+		},
+		22: { // Warrior Catch Back Attack Start
+			0: { distance: 0, onlyTarget: true } // 220100, 220200, 220300, 220400
+		},
+		23: { // Warrior Reversal Turning Attack Start
+			0: { requiredBuff: 100700 } // 230100, 230200
+		},
+		24: { // Warrior Decoy Cast
+			0: { fixedSpeed: true } // 240100, 240200, 240300, 240400, 240500, 240600, 240700, 240800, 240900, 241000, 241100, 241200
+		},
+		25: { // Warrior Command Decoy To Attack Cast
+			0: { fixedSpeed: true, requiredBuff: 102600 } // 250100
+		},
+		26: { // Warrior Command Decoy To Follow Cast
+			0: { fixedSpeed: true, requiredBuff: 102600 } // 260100
+		},
+		27: { // Warrior Heavy Bite Attack
+			0: true // 270100, 270200, 270300, 270400, 270500, 270600, 270700, 270800, 270900, 271000, 271100
+		},
+		28: { // Warrior No Rival Dancing Rapid Piercing Single Use Start
+			'*': { noInterrupt: [1, 2, 3, 4, 8, 9, 10, 13, 16, 17, 19, 21, 22, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 41, 42] },
+			0: true, // 280100, 280200, 280300, 280400, 280500, 280600, 280700, 280800, 280900, 281000,
+			30: true // 280130, 280230, 280330, 280430, 280530, 280630, 280730, 280830, 280930, 281030
+		},
+		29: { // Warrior No Rival Dancing Dual Slash Single Use Start
+			0: { noInterrupt: [1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, '16-0', 18, '19-0', 21, 22, 23, 27, 29, 30, 34, 35, 36, 37, 38, 41, 42] }, // 290100, 290200, 290300, 290400, 290500, 290600, 290700, 290800, 290900, 291000,
+			30: true // 290130, 290230, 290330, 290430, 290530, 290630, 290730, 290830, 290930, 291030
+		},
+		30: { // Warrior Raker Single Use Start
+			0: { noInterrupt: [1, 3, 5, 8, 9, 10, 13, 16, 17, 18, 19, 21, 22, 23, 27, 28, 30, 31, 34, 35, 38, 39, 41, 42] }, // 300100, 300200, 300300, 300400, 300500,
+			30: true // 300130, 300230, 300330, 300430, 300530
+		},
+		31: { // Warrior Rupture Single Use Start
+			'*': { noInterrupt: [1, 2, 3, 5, 8, 9, 10, 11, 12, 13, 16, 17, 19, 21, 22, 23, 27, 28, 29, 30, 33, 34, 35, 37, 38, 39, 41, 42] },
+			0: true, // 310100, 310200, 310300, 310400, 310500, 310600, 310700, 310800, 310900, 311000, 311100, 311200,
+			30: true // 310130, 310230, 310330, 310430, 310530, 310630, 310730, 310830, 310930, 311030, 311130, 311230
+		},
+		32: { // Warrior Twin Swords Defence Start
+			0: { fixedSpeed: true, requiredBuff: [100200, 100201], stamina: 50 } // 320100, 320200
+		},
+		33: { // Warrior Shadow change Start
+			0: { stamina: 300 } // 330100, 330200, 330300, 330400, 330500, 330600, 330700, 330800, 330900, 331000, 331100, 331200
+		},
+		34: { // Warrior Binding Blade Cast
+			0: { noInterrupt: [1, 2, 3, 4, 5, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 28, 29, 30, 31, 33, 35, 36, 37, 38, 39, 41, 42] }, // 340100,
+			30: true // 340130
+		}
+	},
+	1: { // Lancer
+		1: { // Lancer Combo Attack
+			0: true, // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500,
+			1: true, // 10101, 10201, 10301, 10401, 10501, 10601, 10701, 10801, 10901, 11001, 11101, 11201, 11301, 11401, 11501,
+			2: true // 10102, 10202, 10302, 10402, 10502, 10602, 10702, 10802, 10902, 11002, 11102, 11202, 11302, 11402, 11502
+		},
+		2: { // Lancer Shield Defence Start
+			0: { fixedSpeed: true, stamina: 50 } // 20100, 20200, 20300
+		},
+		3: { // Lancer Screw thrust Attack
+			0: true, // 30100, 30200, 30300, 30400, 30500, 30600, 30700, 30800, 30900, 31000, 31100, 31200, 31300, 31400, 31500,
+			30: true // 30130, 30230, 30330, 30430, 30530, 30630, 30730, 30830, 30930, 31030, 31130, 31230, 31330, 31430, 31530
+		},
+		4: { // Lancer Roar Cast
+			'*': { noInterrupt: [4, 9, 12, 23, 24, 26] },
+			0: true // 40100, 40200, 40300, 40400, 40500, 40600, 40700, 40800, 40900, 41000, 41100, 41200, 41300
+		},
+		5: { // Lancer Shield Strike Start
+			0: true // 50100, 50200, 50300, 50400, 50500, 50600, 50700, 50800, 50900, 51000, 51100
+		},
+		6: { // Lancer Voidtrap Start
+			0: true, // 60100, 60200,
+			20: true // 60120, 60220
+		},
+		7: { // Lancer Inspiring Roar Start
+			0: true // 70100, 70200, 70300, 70400, 70500
+		},
+		8: { // Lancer Riposte Start
+			0: { onlyDefenceSuccess: true } // 80100, 80200, 80300, 80400, 80500, 80600, 80700, 80800, 80900, 81000, 81100, 81200, 81300, 81400
+		},
+		9: { // Lancer Hook Shot Start
+			0: true // 90100, 90200, 90300, 90400, 90500, 90600, 90700, 90800, 90900, 91000
+		},
+		10: { // Lancer Armor Break Attack
+			"*": { triggerAbnormal: { 201830: 2000 }, consumeAbnormalEnd: 201830,
+				noInterrupt: [3, 4, 5, 8, 9, 10, 11, 12, 13, 15, 21, 23, 24, 25, 26, 27, 28, 29] },
+			0: true // 100100, 100200, 100300, 100400, 100500, 100600, 100700, 100800, 100900
+		},
+		11: { // Lancer Rising Attack Attack
+			0: true // 110100, 110200, 110300, 110400, 110500, 110600, 110700, 110800, 110900, 111000, 111100, 111200
+		},
+		12: { // Lancer Strong Roar
+			0: true // 120100, 120200, 120300, 120400, 120500, 120600
+		},
+		13: { // Lancer Leap Attack Long Start
+			0: { noInterrupt: [3, 13, '18-0', 21, 25, 26] }, // 130100, 130200, 130300, 130400, 130500, 130600, 130700, 130800, 130900, 131000, 131100, 131200, 131300, 131400,
+			30: true // 130130, 130230, 130330, 130430, 130530, 130630, 130730, 130830, 130930, 131030, 131130, 131230, 131330, 131430
+		},
+		14: { // Lancer MP Refresher Cast
+			0: true // 140100, 140200
+		},
+		15: { // Lancer Advancing Charge Attack
+			0: true, // 150100, 150200, 150300, 150400, 150500, 150600, 150700, 150800, 150900, 151000, 151100, 151200, 151300,
+			1: true // 150101, 150201, 150301, 150401, 150501, 150601, 150701, 150801, 150901, 151001, 151101, 151201, 151301
+		},
+		16: { // Lancer Rejuvenation Cast
+			0: { fixedSpeed: true } // 160100, 160200, 160300, 160400, 160500, 160600, 160700, 160800, 160900, 161000, 161100, 161200
+		},
+		17: { // Lancer Fighting Will Cast
+			0: { fixedSpeed: true } // 170100, 170200, 170300, 170400
+		},
+		18: { // Lancer Shield Combo Attack
+			"*": { triggerAbnormal: { 201831: 2000 }, consumeAbnormalEnd: 201831, noInterrupt: [18] },
+			0: true, // 180100, 180200, 180300, 180400, 180500, 180600, 180700, 180800, 180900, 181000, 181100, 181200, 181300, 181400,
+			1: true // 180101, 180201, 180301, 180401, 180501, 180601, 180701, 180801, 180901, 181001, 181101, 181201, 181301, 181401
+		},
+		19: { // Lancer Vow Of Protection Cast
+			0: { fixedSpeed: true } // 190100, 190200, 190300, 190400
+		},
+		20: { // Lancer Menace Wave Cast
+			0: true // 200100, 200200, 200300
+		},
+		21: { // Lancer Shock Blow Attack
+			0: true // 210100, 210200, 210300, 210400, 210500, 210600, 210700
+		},
+		22: { // Lancer Armored Will Cast
+			0: { fixedSpeed: true } // 220100, 220200, 220300, 220400, 220500, 220600, 220700, 220800
+		},
+		23: { // Lancer Chain Capture Start
+			0: { requiredBuff: 201000 } // 230100, 230200, 230300
+		},
+		24: { // Lancer HarpoonShot
+			0: true, // 240100, 240200, 240300,
+			20: true // 240120, 240220, 240320
+		},
+		25: { // Lancer Overhelm Long Start
+			0: { noInterrupt: [1, 2, 3, 4, 5, 9, 23, 24, 25, 26] }, // 250100, 250200, 250300, 250400, 250500, 250600, 250700, 250800, 250900, 251000,
+			30: true // 250130, 250230, 250330, 250430, 250530, 250630, 250730, 250830, 250930, 251030
+		},
+		26: { // Lancer BackDash
+			0: {forceClip: true, stamina: 200, instantStamina: true, noInterrupt: [26] } // 260100, 260200, 260300
+		},
+		27: { // Lancer Hold the Line Roar
+			0: true // 270100
+		}
+	},
+	2: { // Slayer
+		1: { // Slayer Combo Attack
+			0: true, // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500,
+			1: true, // 10101, 10201, 10301, 10401, 10501, 10601, 10701, 10801, 10901, 11001, 11101, 11201, 11301, 11401, 11501,
+			2: true, // 10102, 10202, 10302, 10402, 10502, 10602, 10702, 10802, 10902, 11002, 11102, 11202, 11302, 11402, 11502,
+			3: true // 10103, 10203, 10303, 10403, 10503, 10603, 10703, 10803, 10903, 11003, 11103, 11203, 11303, 11403, 11503
+		},
+		2: { // Slayer Impact Slash Start
+			'*': { abnormals: 23070 },
+			0: true // 20100, 20200, 20300, 20400, 20500, 20600, 20700, 20800, 20900, 21000, 21100, 21200, 21300, 21400
+		},
+		3: { // Slayer Sword Dancing Start
+			'*': { abnormals: 23080 },
+			0: true // 30100, 30200, 30300, 30400, 30500, 30600, 30700, 30800, 30900, 31000, 31100, 31200, 31300, 31400, 31500
+		},
+		4: { // Slayer Dodge Move Start
+			'*': { forceClip: true },
+			0: true, // 40100, 40200, 40300,
+			30: true // 40230
+		},
+		5: { // Slayer Dash Start
+			0: { fixedSpeed: true } // 50100, 50200, 50300, 50400, 50500
+		},
+		6: { // Slayer Back Attack Start
+			0: { distance: 0, onlyTarget: true } // 60100, 60200, 60300, 60400, 60500, 60600
+		},
+		7: { // Slayer Spirit Concentrate Cast
+			0: true // 70100, 70200, 70300, 70400
+		},
+		8: { // Slayer Cutting Slash Long Start
+			0: {noInterrupt: ['1-0', '1-1', '1-2', 4, 6, 8, 10, '14-0', '14-1', 17, 25] }, // 80100, 80200, 80300, 80400, 80500, 80600, 80700, 80800, 80900, 81000, 81100, 81200,
+			30: true // 80130, 80230, 80330, 80430, 80530, 80630, 80730, 80830, 80930, 81030, 81130, 81230
+		},
+		9: { // Slayer Down Blow Start
+			0: true // 90100, 90200, 90300, 90400, 90500, 90600, 90700, 90800, 90900, 91000, 91100
+		},
+		10: { // Slayer Rising Attack Start
+			0: true // 100100, 100200, 100300, 100400, 100500, 100600, 100700, 100800, 100900, 101000, 101100, 101200
+		},
+		11: { // Slayer MP Refresher Cast
+			0: true // 110100, 110200
+		},
+		12: { // Slayer Stinger Blade Start
+			0: true // 120100, 120200, 120300, 120400, 120500, 120600, 120700, 120800
+		},
+		13: { // Slayer Flat Blade Start
+			0: true // 130100, 130200, 130300, 130400, 130500, 130600, 130700, 130800, 130900, 131000
+		},
+		14: { // Slayer Triple Wind Cutter Start
+			'*': { triggerAbnormal: { 23220: 2000 }, consumeAbnormalEnd: 23220 },
+			0: true, // 140100, 140200, 140300, 140400, 140500, 140600, 140700, 140800, 140900, 141000, 141100,
+			1: true, // 140101, 140201, 140301, 140401, 140501, 140601, 140701, 140801, 140901, 141001, 141101,
+			2: true // 140102, 140202, 140302, 140402, 140502, 140602, 140702, 140802, 140902, 141002, 141102
+		},
+		15: { // Slayer Retreating Kick Start
+			'*': { forceClip: true },
+			0: true // 150100, 150200, 150300, 150400, 150500, 150600, 150700, 150800, 150900, 151000, 151100
+		},
+		16: { // Slayer Raging Strike Start
+			0: true // 160100, 160200, 160300, 160400, 160500, 160600, 160700
+		},
+		17: { // Slayer Advancing Leap Start
+			0: { fixedSpeed: true } // 170100, 170200, 170300, 170400, 170500, 170600
+		},
+		18: { // Slayer Gathering Strength Cast
+			0: true // 180100, 180200, 180300, 180400
+		},
+		19: { // Slayer Tenacity Cast
+			0: { fixedSpeed: true } // 190100, 190200, 190300, 190400, 190500
+		},
+		20: { // Slayer Destruction Vigor Cast
+			0: { fixedSpeed: true, triggerAbnormal: { 23220: 2000 }, consumeAbnormalEnd: 23220 } // 200100, 200200, 200300, 200400
+		},
+		21: { // Slayer Vein Slash Start
+			0: true // 210100, 210200, 210300, 210400, 210500
+		},
+		22: { // Slayer Jaw Breaker
+			0: true // 220100, 220200
+		},
+		23: { // Slayer Cut Head Long Start
+			0: { noInterrupt: [1, 2, 3, 4, 6, 9, 12, 13, 15, 17, 22, 23] }, // 230100, 230200, 230300, 230400, 230500,
+			30: true // 230130, 230230, 230330, 230430, 230530
+		},
+		24: { // Slayer Jaw Breaker Long
+			0: { noInterrupt: ['1-0', '1-1', '1-2', 4, 6, 14, 16, 17, 22, 24, 26] }, // 240100,
+			30: true // 240130
+		},
+		25: { // Slayer Jin Cutting Slash Long Start
+			0: true, // 250100,
+			30: true // 250130
+		}
+	},
+	3: { // Berserker
+		1: { // Berserker Combo Attack
+			0: true, // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500,
+			1: true, // 10101, 10201, 10301, 10401, 10501, 10601, 10701, 10801, 10901, 11001, 11101, 11201, 11301, 11401, 11501,
+			2: true, // 10102, 10202, 10302, 10402, 10502, 10602, 10702, 10802, 10902, 11002, 11102, 11202, 11302, 11402, 11502,
+			3: true // 10103, 10203, 10303, 10403, 10503, 10603, 10703, 10803, 10903, 11003, 11103, 11203, 11303, 11403, 11503
+		},
+		2: { // Berserker Axe Defence Start
+			'*': { consumeAbnormal: 401701 },
+			0: true // 20100, 20200, 20300
+		},
+		3: { // Berserker Blast Slash Moving Charge
+			0: true, // 30100, 30200, 30300, 30400, 30500, 30600, 30700, 30800, 30900, 31000, 31100, 31200, 31300, 31400,
+			10: true, // 30110, 30210, 30310, 30410, 30510, 30610, 30710, 30810, 30910, 31010, 31110, 31210, 31310, 31410,
+			11: true, // 30111, 30211, 30311, 30411, 30511, 30611, 30711, 30811, 30911, 31011, 31111, 31211, 31311, 31411,
+			12: true, // 30112, 30212, 30312, 30412, 30512, 30612, 30712, 30812, 30912, 31012, 31112, 31212, 31312, 31412,
+			13: true // 30113, 30213, 30313, 30413, 30513, 30613, 30713, 30813, 30913, 31013, 31113, 31213, 31313, 31413
+		},
+		4: { // Berserker Weapon Bash Attack Long
+			0: { noInterrupt: [1, 2, '3-10', '3-11', '3-12', '3-13', 4, '8-30', '10-10', '10-11', '10-12', 11, '10-13', 13, '15-10', '15-11', '15-12', '15-13', '15-14', 18, 24, 26, 28, 29, 30, '32-0'] }, // 40100, 40200, 40300, 40400, 40500, 40600, 40700, 40800, 40900, 41000, 41100, 41200, 41300, 41400, 41500,
+			30: true // 40130, 40230, 40330, 40430, 40530, 40630, 40730, 40830, 40930, 41030, 41130, 41230, 41330, 41430, 41530
+		},
+		5: { // Berserker Dash Start
+			0: { fixedSpeed: true } // 50100, 50200, 50300, 50400, 50500
+		},
+		6: { // Berserker Turn Attack Start
+			0: true // 60100, 60200, 60300, 60400, 60500, 60600, 60700, 60800
+		},
+		7: { // Berserker Shocking Shout Start
+			0: true // 70100, 70200, 70300, 70400
+		},
+		8: { // Berserker Attack Up Defence Down
+			0: { fixedSpeed: true } // 80100, 80200, 80300, 80400, 80500, 80600, 80700
+		},
+		9: { // Berserker Spirit Concentrate Cast
+			0: true // 90100, 90200, 90300, 90400
+		},
+		10: { // Berserker Whirlwind Moving Charge
+			0: true, // 100100, 100200, 100300, 100400, 100500, 100600, 100700, 100800, 100900, 101000, 101100, 101200, 101300, 101400,
+			10: true, // 100110, 100210, 100310, 100410, 100510, 100610, 100710, 100810, 100910, 101010, 101110, 101210, 101310, 101410,
+			11: true, // 100111, 100211, 100311, 100411, 100511, 100611, 100711, 100811, 100911, 101011, 101111, 101211, 101311, 101411,
+			12: true, // 100112, 100212, 100312, 100412, 100512, 100612, 100712, 100812, 100912, 101012, 101112, 101212, 101312, 101412,
+			13: true // 100113, 100213, 100313, 100413, 100513, 100613, 100713, 100813, 100913, 101013, 101113, 101213, 101313, 101413
+		},
+		11: { // Berserker Down Blow Attack
+			0: true // 110100, 110200, 110300, 110400, 110500, 110600, 110700, 110800, 110900, 111000, 111100
+		},
+		12: { // Berserker Vital Conversion Start
+			0: true // 120100, 120200, 120300, 120400, 120500, 120600, 120700, 120800, 120900
+		},
+		13: { // Berserker Rising Attack Attack
+			0: true // 130100, 130200, 130300, 130400, 130500, 130600, 130700, 130800, 130900, 131000, 131100, 131200
+		},
+		14: { // Berserker MP Refresher Cast
+			0: true // 140100, 140200
+		},
+		15: { // Berserker Vampiric Strike Moving Charge
+			0: { noInterrupt: [2] }, // 150100, 150200, 150300, 150400, 150500, 150600, 150700, 150800, 150900, 151000, 151100, 151200,
+			10: true, // 150110, 150210, 150310, 150410, 150510, 150610, 150710, 150810, 150910, 151010, 151110, 151210,
+			11: true, // 150111, 150211, 150311, 150411, 150511, 150611, 150711, 150811, 150911, 151011, 151111, 151211,
+			12: true, // 150112, 150212, 150312, 150412, 150512, 150612, 150712, 150812, 150912, 151012, 151112, 151212,
+			13: true, // 150113, 150213, 150313, 150413, 150513, 150613, 150713, 150813, 150913, 151013, 151113, 151213,
+			14: true // 150114, 150214, 150314, 150414, 150514, 150614, 150714, 150814, 150914, 151014, 151114, 151214
+		},
+		16: { // Berserker Piercing Shout Start
+			0: true // 160100, 160200, 160300, 160400, 160500, 160600, 160700
+		},
+		17: { // Berserker Berserk Amplifying Cast
+			0: true // 170100, 170200, 170300, 170400
+		},
+		18: { // Berserker Soul Strike Moving Charge
+			0: true, // 180100, 180200, 180300, 180400, 180500, 180600, 180700, 180800, 180900,
+			10: true, // 180110, 180210, 180310, 180410, 180510, 180610, 180710, 180810, 180910,
+			11: true, // 180111, 180211, 180311, 180411, 180511, 180611, 180711, 180811, 180911,
+			12: true, // 180112, 180212, 180312, 180412, 180512, 180612, 180712, 180812, 180912,
+			13: true // 180113, 180213, 180313, 180413, 180513, 180613, 180713, 180813, 180913
+		},
+		19: { // Berserker Tenacity Cast
+			0: { fixedSpeed: true } // 190100, 190200, 190300, 190400, 190500
+		},
+		20: { // Berserker Murderous Vent Cast
+			0: { fixedSpeed: true } // 200100, 200200, 200300, 200400
+		},
+		21: { // Berserker Fury Cast
+			0: { fixedSpeed: true } // 210100, 210200, 210300, 210400
+		},
+		22: { // Berserker Throw Axe
+			0: true // 220100, 220200
+		},
+		23: { // Berserker Side Slash
+			0: true // 230100, 230200
+		},
+		24: { // Berserker Rib Breaker Evade
+			0: true, // 240100, 240200, 240300, 240400, 240500, 249100,
+			5: true, // 240105, 240205, 240305, 240405, 240505,
+			10: true, // 240110, 240210, 240310, 240410, 240510,
+			11: true, // 240111, 240211, 240311, 240411, 240511,
+			12: true, // 240112, 240212, 240312, 240412, 240512,
+			13: true // 240113, 240213, 240313, 240413, 240513
+		},
+		25: { // Berserker Side Slash Long - Raze
+			0: { noInterrupt: [2, '3-10', '3-11', '3-12', '3-13', 4, 6, '8-30', '10-10', '10-11', '10-12', '10-13', 11, 12, 13, '15-10', '15-11', '15-12', '15-13', '15-14', '18-10', '18-11', '18-12', '18-13', 24, 25, 26, 27, 28, 29, '32-0'] }, // 250100,
+			30: true // 250130
+		},
+		26: { // Berserker Throw Axe Cast
+			0: true, // 260100,
+			20: true // 260120
+		},
+		27: { // Berserker Feel No Pain Start
+			0: {noInterrupt: [1, '3-10', '3-11', '3-12', '3-13', 4, 6, '8-30', '10-10', '10-11', '10-12', '10-13', 11, 13, '15-10', '15-11', '15-12', '15-13', '15-14', 18, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33] } // 270100
+		}
+	},
+	4: { // Sorcerer
+		1: { // Sorcerer Fire Ball Cast
+			0: true // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500
+		},
+		2: { // Sorcerer Flame Knife Cast
+			0: true, // 20100, 20200, 20300, 20400, 20500, 20600, 20700, 20800, 20900, 21000, 21100, 21200, 21300, 21400, 21500,
+			20: true // 20120, 20220, 20320, 20420, 20520, 20620, 20720, 20820, 20920, 21020, 21120, 21220, 21320, 21420, 21520
+		},
+		3: { // Sorcerer Shock Trap Cast
+			0: true, // 30100, 30200, 30300, 30400, 30500, 30600, 30700, 30800, 30900, 31000, 31100, 31200,
+			20: true // 30120, 30220, 30320, 30420, 30520, 30620, 30720, 30820, 30920, 31020, 31120, 31220
+		},
+		4: { // Sorcerer Blast Ball Charge
+			0: true, // 40100, 40200, 40300, 40400, 40500, 40600, 40700, 40800, 40900, 41000, 41100, 41200, 41300, 41400, 41500,
+			10: true, // 40110, 40210, 40310, 40410, 40510, 40610, 40710, 40810, 40910, 41010, 41110, 41210, 41310, 41410, 41510,
+			11: true, // 40111, 40211, 40311, 40411, 40511, 40611, 40711, 40811, 40911, 41011, 41111, 41211, 41311, 41411, 41511,
+			12: true, // 40112, 40212, 40312, 40412, 40512, 40612, 40712, 40812, 40912, 41012, 41112, 41212, 41312, 41412, 41512,
+			13: true, // 40113, 40213, 40313, 40413, 40513, 40613, 40713, 40813, 40913, 41013, 41113, 41213, 41313, 41413, 41513,
+			20: true, // 40120, 40220, 40320, 40420, 40520, 40620, 40720, 40820, 40920, 41020, 41120, 41220, 41320, 41420, 41520,
+			21: true, // 40121, 40221, 40321, 40421, 40521, 40621, 40721, 40821, 40921, 41021, 41121, 41221, 41321, 41421, 41521,
+			22: true, // 40122, 40222, 40322, 40422, 40522, 40622, 40722, 40822, 40922, 41022, 41122, 41222, 41322, 41422, 41522,
+			23: true // 40123, 40223, 40323, 40423, 40523, 40623, 40723, 40823, 40923, 41023, 41123, 41223, 41323, 41423, 41523
+		},
+		5: { // Sorcerer MP Regen Cast
+			0: true // 50100, 50200, 50300, 50400, 50500, 50600
+		},
+		6: { // Sorcerer Inferno Cast
+			0: true // 60100, 60200, 60300, 60400, 60500, 60600, 60700, 60800, 60900, 61000
+		},
+		7: { // Sorcerer Back Dash Cast
+			0: { forceClip: true } // 70100, 70200, 70300
+		},
+		8: { // Sorcerer AuraBurn Cast
+			0: true // 80100, 80200, 80300, 80400, 80500, 80600, 80700, 80800, 80900, 81000, 81100, 81200, 81300, 81400
+		},
+		9: { // Sorcerer KiCharge Cast
+			0: true // 90100, 90200, 90300, 90400, 90500, 90600, 90700, 90800, 90900
+		},
+		10: { // Sorcerer ManaShield Cast
+			0: true // 100100, 100200, 100300, 100400, 100500, 100600, 100700, 100800
+		},
+		11: { // Sorcerer Howitzer Cast
+			0: true, // 110100, 110200, 110300, 110400, 110500, 110600, 110700, 110800, 110900, 111000, 111100, 111200, 111300, 111400,
+			40: true // 110140, 110240, 110340, 110440, 110540, 110640, 110740, 110840, 110940, 111040, 111140, 111240, 111340, 111440
+		},
+		12: { // Sorcerer Heavy Shot Cast
+			0: true, // 120100, 120200, 120300, 120400, 120500, 120600, 120700, 120800, 120900,
+			20: true // 120120, 120220, 120320, 120420, 120520, 120620, 120720, 120820, 120920
+		},
+		13: { // Sorcerer Sleeping Wind Cast
+			0: true // 130100, 130200, 130300, 130400
+		},
+		14: { // Sorcerer Rising Attack Cast
+			0: true // 140100, 140200, 140300, 140400, 140500, 140600, 140700, 140800, 140900, 141000, 141100, 141200, 141300
+		},
+		15: { // Sorcerer MP Refresher Cast
+			0: true // 150100, 150200
+		},
+		16: { // Sorcerer Curse of Disease Cast
+			0: true // 160100, 160200, 160300, 160400, 160500, 160600, 160700, 160800, 160900, 161000, 161100, 161200
+		},
+		17: { // Sorcerer Mark of Pain Cast
+			0: true, // 170100, 170200, 170300, 170400, 170500, 170600, 170700, 170800, 170900,
+			20: true // 170120, 170220, 170320, 170420, 170520, 170620, 170720, 170820, 170920
+		},
+		18: { // Sorcerer Freezing the Earth Cast
+			0: { forceClip: true } // 180100, 180200, 180300, 180400, 180500, 180600, 180700, 180800, 180900, 181000, 181100, 181200
+		},
+		19: { // Sorcerer Mana Extortion Cast
+			0: true, // 190100, 190200, 190300, 190400, 190500, 190600,
+			10: true, // 190110, 190210, 190310, 190410, 190510, 190610,
+			11: true, // 190111, 190211, 190311, 190411, 190511, 190611,
+			12: true, // 190112, 190212, 190312, 190412, 190512, 190612,
+			13: true // 190113, 190213, 190313, 190413, 190513, 190613
+		},
+		20: { // Sorcerer Fire and brimstone LockOn
+			0: { type: 'lockon' }, // 200100, 200200, 200300, 200400, 200500, 200600, 200700, 200800,
+			10: { type: 'lockonCast' } // 200110, 200210, 200310, 200410, 200510, 200610, 200710, 200810
+		},
+		21: { // Sorcerer Neurasthenia LockOn
+			0: { type: 'lockon' }, // 210100, 210200, 210300, 210400,
+			10: { type: 'lockonCast' } // 210110, 210210, 210310, 210410
+		},
+		22: { // Sorcerer Burning Breath LockOn
+			0: { type: 'lockon' }, // 220100, 220200, 220300, 220400, 220500, 220600, 220700,
+			10: { type: 'lockonCast' } // 220110, 220210, 220310, 220410, 220510, 220610, 220710
+		},
+		23: { // Sorcerer Mp Sink LockOn
+			0: { type: 'lockon' }, // 230100, 230200, 230300, 230400,
+			10: { type: 'lockonCast' } // 230110, 230210, 230310, 230410
+		},
+		24: { // Sorcerer Contract Of Quickness Cast
+			0: true // 240100, 240200
+		},
+		25: { // Sorcerer Curse Of Shackle LockOn time gyre
+			0: { type: 'lockon' }, // 250100, 250200, 250300, 250400, 250500, 250600,
+			10: { type: 'lockonCast' } // 250110, 250210, 250310, 250410, 250510, 250610
+		},
+		26: { // Sorcerer Short Teleport Cast
+			0: { noInterrupt: [26] } // 260100, 260200
+		},
+		27: { // Sorcerer Ice Storm Cast
+			0: true, // 270100, 270200, 270300, 270400, 270500, 270600, 270700,
+			20: true // 270120, 270220, 270320, 270420, 270520, 270620, 270720
+		},
+		28: { // Sorcerer Stone shape ON
+			0: true, // 280100, 280200, 280300, 280400,
+			50: true // 280150, 280250, 280350, 280450
+		},
+		29: { // Sorcerer Tornado prison Cast
+			0: true, // 290100, 290200,
+			20: true // 290120, 290220
+		},
+		30: { // Sorcerer Mana Burst Cast
+			0: true // 300100
+		},
+		31: { // Sorcerer Distortion Field Cast Warp Barrier
+			0: true // 310100
+		}
+	},
+	5: { // Archer
+		1: { // Archer Normal Shot
+			0: true // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500
+		},
+		2: { // Archer Arrow Shower LockOn
+			0: { type: 'lockon' }, // 20100, 20200, 20300, 20400, 20500, 20600, 20700, 20800, 20900, 21000, 21100, 21200, 21300, 21400, 21500,
+			10: { type: 'lockonCast' } // 20110, 20210, 20310, 20410, 20510, 20610, 20710, 20810, 20910, 21010, 21110, 21210, 21310, 21410, 21510
+		},
+		3: { // Archer Charge Arrow Charge
+			0: true, // 30100, 30200, 30300, 30400, 30500, 30600, 30700, 30800, 30900, 31000, 31100, 31200, 31300, 31400,
+			10: true, // 30110, 30210, 30310, 30410, 30510, 30610, 30710, 30810, 30910, 31010, 31110, 31210, 31310, 31410,
+			11: true, // 30111, 30211, 30311, 30411, 30511, 30611, 30711, 30811, 30911, 31011, 31111, 31211, 31311, 31411,
+			12: true, // 30112, 30212, 30312, 30412, 30512, 30612, 30712, 30812, 30912, 31012, 31112, 31212, 31312, 31412,
+			13: true // 30113, 30213, 30313, 30413, 30513, 30613, 30713, 30813, 30913, 31013, 31113, 31213, 31313, 31413
+		},
+		4: { // Archer Piercing Arrow Charge
+			0: true, // 40100, 40200, 40300, 40400, 40500, 40600, 40700, 40800, 40900, 41000, 41100, 41200, 41300, 41400,
+			10: true, // 40110, 40210, 40310, 40410, 40510, 40610, 40710, 40810, 40910, 41010, 41110, 41210, 41310, 41410,
+			11: true, // 40111, 40211, 40311, 40411, 40511, 40611, 40711, 40811, 40911, 41011, 41111, 41211, 41311, 41411,
+			12: true, // 40112, 40212, 40312, 40412, 40512, 40612, 40712, 40812, 40912, 41012, 41112, 41212, 41312, 41412,
+			13: true // 40113, 40213, 40313, 40413, 40513, 40613, 40713, 40813, 40913, 41013, 41113, 41213, 41313, 41413
+		},
+		5: { // Archer Arrow Fall Cast
+			0: true, // 50100, 50200, 50300, 50400, 50500, 50600,
+			20: true // 50120, 50220, 50320, 50420, 50520, 50620
+		},
+		6: { // Archer BackDash
+			0: { forceClip: true }, // 60100, 60200, 60300
+		},
+		7: { // Archer Feign Death
+			0: { fixedSpeed: true } // 70100, 70200, 70300, 70400, 70500, 70600, 70700
+		},
+		8: { // Archer Rapid Shot Combo
+			0: true, // 80100, 80200, 80300, 80400, 80500, 80600, 80700, 80800, 80900, 81000, 81100, 81200,
+			1: true, // 80101, 80201, 80301, 80401, 80501, 80601, 80701, 80801, 80901, 81001, 81101, 81201,
+			2: true, // 80102, 80202, 80302, 80402, 80502, 80602, 80702, 80802, 80902, 81002, 81102, 81202,
+			3: true, // 80103, 80203, 80303, 80403, 80503, 80603, 80703, 80803, 80903, 81003, 81103, 81203,
+			4: true, // 80104, 80204, 80304, 80404, 80504, 80604, 80704, 80804, 80904, 81004, 81104, 81204,
+			5: true, // 80105, 80205, 80305, 80405, 80505, 80605, 80705, 80805, 80905, 81005, 81105, 81205,
+			6: true // 80106, 80206, 80306, 80406, 80506, 80606, 80706, 80806, 80906, 81006, 81106, 81206
+		},
+		9: { // Archer Web Trap Cast
+			0: true, // 90100, 90200, 90300, 90400, 90500, 90600, 90700, 90800, 90900,
+			20: true // 90120, 90220, 90320, 90420, 90520, 90620, 90720, 90820, 90920
+		},
+		10: { // Archer Paralysis Trap Cast
+			0: true, // 100100, 100200, 100300, 100400, 100500, 100600, 100700,
+			20: true // 100120, 100220, 100320, 100420, 100520, 100620, 100720
+		},
+		11: { // Archer Venom Trap Cast
+			0: true, // 110100, 110200, 110300, 110400, 110500, 110600, 110700, 110800, 110900, 111000,
+			20: true // 110120, 110220, 110320, 110420, 110520, 110620, 110720, 110820, 110920, 111020
+		},
+		12: { // Archer Archer Marking Start
+			0: true // 120100, 120200, 120300, 120400, 120500
+		},
+		13: { // Archer MP Refresh Cast
+			0: true // 130100
+		},
+		14: { // Archer Rising Attack Attack
+			0: true // 140100, 140200, 140300, 140400, 140500, 140600, 140700, 140800, 140900, 141000, 141100, 141200
+		},
+		15: { // Archer Explosion Trap Cast
+			0: true, // 150100, 150200, 150300, 150400, 150500, 150600, 150700, 150800, 150900, 151000,
+			20: true // 150120, 150220, 150320, 150420, 150520, 150620, 150720, 150820, 150920, 151020
+		},
+		16: { // Archer Escaping Attack Cast
+			0: { forceClip: true } // 160100, 160200, 160300, 160400, 160500, 160600, 160700, 160800, 160900, 161000, 161100, 161200, 161300
+		},
+		17: { // Archer Spider web Arrow
+			0: true // 170100, 170200, 170300, 170400, 170500
+		},
+		18: { // Archer Roundhouse Kick Attack
+			0: true, // 180100, 180200, 180300, 180400, 180500, 180600, 180700, 180800, 180900, 181000, 181100, 181200, 181300,
+			1: true // 180101, 180201, 180301, 180401, 180501, 180601, 180701, 180801, 180901, 181001, 181101, 181201, 181301
+		},
+		19: { // Archer Venom Arrow Attack
+			0: true // 190100, 190200, 190300, 190400, 190500, 190600, 190700, 190800, 190900, 191000, 191100
+		},
+		20: { // Archer Contaning Shot Attack
+			0: true // 200100, 200200, 200300, 200400
+		},
+		21: { // Archer Focus Stance AttackSlow ON
+			0: true, // 210100, 210200, 210300, 210400,
+			50: true // 210150, 210250, 210350, 210450
+		},
+		22: { // Archer Chain Rapid Shot Combo
+			0: true, // 220100, 220200, 220300, 220400, 220500, 220600, 220700, 220800, 220900, 221000, 221100,
+			1: true, // 220101, 220201, 220301, 220401, 220501, 220601, 220701, 220801, 220901, 221001, 221101,
+			2: true, // 220102, 220202, 220302, 220402, 220502, 220602, 220702, 220802, 220902, 221002, 221102,
+			3: true, // 220103, 220203, 220303, 220403, 220503, 220603, 220703, 220803, 220903, 221003, 221103,
+			4: true // 220104, 220204, 220304, 220404, 220504, 220604, 220704, 220804, 220904, 221004, 221104
+		},
+		23: { // Archer Paralysis TrapArrow Cast
+			0: true, // 230100, 230200, 230300, 230400, 230500,
+			20: true // 230120, 230220, 230320, 230420, 230520
+		},
+		24: { // Archer Web TrapArrow Cast
+			0: true, // 240100, 240200, 240300, 240400, 240500,
+			20: true // 240120, 240220, 240320, 240420, 240520
+		},
+		25: { // Archer Explosion TrapArrow Cast
+			0: true, // 250100, 250200, 250300, 250400, 250500,
+			20: true // 250120, 250220, 250320, 250420, 250520
+		},
+		26: { // Archer Thunder Drake Shot
+			0: true // 260100, 260200
+		},
+		27: { // Archer Thunder Drake Craw
+			0: true // 270100, 270200
+		},
+		28: { // Archer Focus Stance AttackSlow ON
+			0: true, // 280100, 280200, 280300, 280400,
+			50: true // 280150, 280250, 280350, 280450
+		},
+		29: { // Archer Thunder Drake Shot
+			0: true, // 290100,
+			20: true // 290120
+		},
+		31: { // Archer Tenacity Cast
+			0: true // 310100
+		}
+	},
+	6: { // Priest
+		1: { // Priest Holy Shot Cast
+			0: true, // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500,
+			1: true, // 10101, 10201, 10301, 10401, 10501, 10601, 10701, 10801, 10901, 11001, 11101, 11201, 11301, 11401, 11501,
+			2: true, // 10102, 10202, 10302, 10402, 10502, 10602, 10702, 10802, 10902, 11002, 11102, 11202, 11302, 11402, 11502,
+			3: true, // 10103, 10203, 10303, 10403, 10503, 10603, 10703, 10803, 10903, 11003, 11103, 11203, 11303, 11403, 11503,
+			20: true, // 10120, 10220, 10320, 10420, 10520, 10620, 10720, 10820, 10920, 11020, 11120, 11220, 11320, 11420, 11520,
+			21: true, // 10121, 10221, 10321, 10421, 10521, 10621, 10721, 10821, 10921, 11021, 11121, 11221, 11321, 11421, 11521,
+			22: true, // 10122, 10222, 10322, 10422, 10522, 10622, 10722, 10822, 10922, 11022, 11122, 11222, 11322, 11422, 11522,
+			23: true // 10123, 10223, 10323, 10423, 10523, 10623, 10723, 10823, 10923, 11023, 11123, 11223, 11323, 11423, 11523
+		},
+		2: { // Priest Wide Heal Cast
+			0: true // 20100, 20200, 20300, 20400, 20500, 20600, 20700, 20800, 20900, 21000, 21100, 21200, 21300, 21400
+		},
+		3: { // Priest Concentrate Heal Cast
+			0: true // 30100, 30200, 30300, 30400, 30500, 30600, 30700, 30800, 30900, 31000, 31100, 31200, 31300
+		},
+		4: { // Priest Defence Up Bless Cast
+			0: true // 40100, 40200
+		},
+		5: { // Priest Attack Up Bless Cast
+			0: true // 50100, 50200, 50300, 50400, 50500
+		},
+		6: { // Priest Recovery Cast
+			0: true // 60100, 60200, 60300, 60400, 60500
+		},
+		7: { // Priest Sleep Ball Cast
+			0: true, // 70100, 70200, 70300,
+			20: true // 70120, 70220, 70320
+		},
+		8: { // Priest MP Regen Cast
+			0: true // 80100, 80200, 80300, 80400, 80500
+		},
+		9: { // Priest Heal Shot Cast
+			0: true, // 90100, 90200, 90300, 90400, 90500, 90600,
+			20: true // 90120, 90220, 90320, 90420, 90520, 90620
+		},
+		10: { // Priest Purify Cast
+			0: true // 100100, 100200, 100300, 100400, 100500
+		},
+		11: { // Priest Retrbutionwave Cast
+			0: true // 110100, 110200, 110300, 110400, 110500, 110600, 110700, 110800, 110900, 111000, 111100, 111200, 111300, 111400, 111500
+		},
+		12: { // Priest Resurrection Cast
+			0: true // 120100, 120200, 120300, 120400
+		},
+		13: { // Priest Party Teleport Cast
+			0: true // 130100, 130200
+		},
+		14: { // Priest Party Recall Cast
+			0: true // 140100, 140200
+		},
+		15: { // Priest FastWalk Cast
+			0: true // 150100, 150200
+		},
+		16: { // Priest Holy Blast Cast
+			0: true // 160100, 160200, 160300, 160400, 160500, 160600, 160700, 160800, 160900, 161000, 161100, 161200, 161300
+		},
+		17: { // Priest Aggro Release Cast
+			0: true // 170100, 170200, 170300, 170400, 170500, 170600
+		},
+		18: { // Priest Self Heal Cast
+			0: true // 180100, 180200, 180300, 180400, 180500, 180600, 180700, 180800, 180900, 181000, 181100, 181200, 181300, 181400, 181500
+		},
+		19: { // Priest Healing Light LockOn
+			0: { type: 'lockon' }, // 190100, 190200, 190300, 190400, 190500, 190600, 190700, 190800, 190900, 191000, 191100, 191200,
+			10: { type: 'lockonCast' } // 190110, 190210, 190310, 190410, 190510, 190610, 190710, 190810, 190910, 191010, 191110, 191210
+		},
+		20: { // Priest Agility Bless Cast
+			0: true // 200100, 200200, 200300, 200400, 200500, 200600
+		},
+		21: { // Priest Resistance Bless Cast
+			0: true // 210100, 210200, 210300, 210400, 210500
+		},
+		22: { // Priest Damage Shield Cast
+			0: true // 220100, 220200, 220300, 220400, 220500, 220600, 220700, 220800, 220900, 221000, 221100, 221200, 221300, 221400
+		},
+		23: { // Priest Hp Recovery Bless Cast
+			0: true // 230100, 230200, 230300, 230400, 230500, 230600, 230700, 230800, 230900
+		},
+		24: { // Priest MP Refresher Cast
+			0: true // 240100, 240200
+		},
+		25: { // Priest Rising Attack Cast
+			0: true // 250100, 250200, 250300, 250400, 250500, 250600, 250700, 250800, 250900, 251000, 251100, 251200
+		},
+		26: { // Priest Sanctuary of Fetters Cast
+			0: true // 260100, 260200, 260300, 260400, 260500, 260600, 260700, 260800, 260900, 261000, 261100, 261200, 261300, 261400
+		},
+		27: { // Priest Punishing Touch Long Cast
+			'*': { noInterrupt: [27] },
+			0: true, // 270100, 270200, 270300, 270400, 270500, 270600, 270700, 270800, 270900, 271000, 271100, 271200, 271300,
+			30: true // 270130, 270230, 270330, 270430, 270530, 270630, 270730, 270830, 270930, 271030, 271130, 271230, 271330
+		},
+		28: { // Priest Mana Rejuvenation Charge
+			0: true, // 280100, 280200,
+			10: true, // 280110, 280210,
+			11: true, // 280111, 280211,
+			12: true, // 280112, 280212,
+			13: true // 280213
+		},
+		29: { // Priest Divine Retrivution Combo
+			0: true, // 290100, 290200, 290300, 290400, 290500, 290600, 290700, 290800, 290900, 291000, 291100, 291200, 291300, 291400,
+			1: true, // 290101, 290201, 290301, 290401, 290501, 290601, 290701, 290801, 290901, 291001, 291101, 291201, 291301, 291401,
+			2: true // 290102, 290202, 290302, 290402, 290502, 290602, 290702, 290802, 290902, 291002, 291102, 291202, 291302, 291402
+		},
+		30: { // Priest Prophecy Of Lethargy LockOn
+			0: true, // 300100, 300200, 300300, 300400, 300500, 300600, 300700, 300800, 300900, 301000,
+			10: true // 300110, 300210, 300310, 300410, 300510, 300610, 300710, 300810, 300910, 301010
+		},
+		31: { // Priest Guardian Aura Cast
+			0: true // 310100, 310200, 310300, 310400, 310500
+		},
+		32: { // Priest Restoration Cast
+			0: true // 320100, 320200, 320300, 320400, 320500
+		},
+		33: { // Priest Lullaby Of Ishara LockOn
+			0: { type: 'lockon' }, // 330100, 330200, 330300, 330400, 330500,
+			10: { type: 'lockonCast' } // 330110, 330210, 330310, 330410, 330510
+		},
+		34: { // Priest Sanctuary of Regeneration Cast
+			0: true, // 340100, 340200, 340300, 340400, 340500, 340600, 340700, 340800, 340900, 341000, 341100, 341200, 341300, 341400,
+			20: true // 340120, 340220, 340320, 340420, 340520, 340620, 340720, 340820, 340920, 341020, 341120, 341220, 341320, 341420
+		},
+		35: { // Priest Divine Lightning LockOn
+			0: { type: 'lockon' }, // 350100, 350200, 350300, 350400, 350500, 350600, 350700,
+			10: { type: 'lockonCast' } // 350110, 350210, 350310, 350410, 350510, 350610, 350710
+		},
+		36: { // Priest Advent Goddess
+			0: true // 360100, 360200
+		},
+		37: { // Priest Cure Wing LockOn
+			0: { type: 'lockon' }, // 370100, 370200, 370300, 370400, 370500,
+			10: { type: 'lockonCast' } // 370110, 370210, 370310, 370410, 370510
+		},
+		38: { // Priest Back Dash Cast
+			0: true // 380100
+		},
+		39: { // Priest Self PreResurrection Cast
+			0: true // 390100, 390200, 390300, 390400, 390500
+		},
+		40: { // Priest God Breath Cast
+			0: true, // 400100,
+			20: true // 400120
+		},
+		41: { // Priest Helping Hand LockOn
+			0: { type: 'lockon', partyOnly: true }, // 410100,
+			10: { type: 'lockonCast' } // 410110
+		}
+	},
+	7: { // Elementalist
+		1: { // Elementalist Magic Arrow Shot
+			0: true, // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500,
+			1: true, // 10101, 10201, 10301, 10401, 10501, 10601, 10701, 10801, 10901, 11001, 11101, 11201, 11301, 11401, 11501,
+			2: true, // 10102, 10202, 10302, 10402, 10502, 10602, 10702, 10802, 10902, 11002, 11102, 11202, 11302, 11402, 11502,
+			3: true // 10103, 10203, 10303, 10403, 10503, 10603, 10703, 10803, 10903, 11003, 11103, 11203, 11303, 11403, 11503
+		},
+		2: { // Elementalist MP Supply Charge Drain
+			0: true, // 20100, 20200, 20300, 20400, 20500, 20600, 20700, 20800, 20900, 21000, 21100, 21200, 21300, 21400,
+			11: true, // 20111, 20211, 20311, 20411, 20511, 20611, 20711, 20811, 20911, 21011, 21111, 21211, 21311, 21411,
+			12: true // 20112, 20212, 20312, 20412, 20512, 20612, 20712, 20812, 20912, 21012, 21112, 21212, 21312, 21412
+		},
+		3: { // Elementalist Rage Bless Cast
+			0: true // 30100, 30200, 30300, 30400, 30500, 30600
+		},
+		4: { // Elementalist Slow Ball Cast
+			0: true, // 40100, 40200, 40300, 40400, 40500, 40600,
+			20: true // 40120, 40220, 40320, 40420, 40520, 40620
+		},
+		5: { // Elementalist Target Heal LockOn
+			0: { type: 'lockon' }, // 50100, 50200, 50300, 50400, 50500, 50600, 50700, 50800, 50900, 51000, 51100, 51200,
+			10: { type: 'lockonCast' } // 50110, 50210, 50310, 50410, 50510, 50610, 50710, 50810, 50910, 51010, 51110, 51210
+		},
+		6: { // Elementalist Flash Bomb Cast
+			0: true, // 60100, 60200, 60300, 60400, 60500, 60600,
+			20: true // 60120, 60220, 60320, 60420, 60520, 60620
+		},
+		7: { // Elementalist MP Regen Cast
+			0: true // 70100, 70200, 70300, 70400, 70500
+		},
+		8: { // Elementalist elementalStrike
+			0: { noInterrupt: [1, 2, 6, 17] } // 80100, 80200, 80300, 80400, 80500, 80600, 80700, 80800, 80900, 81000, 81100, 81200, 81300, 81400, 81500
+		},
+		9: { // Elementalist Target Purify LockOn
+			0: { type: 'lockon' }, // 90100, 90200, 90300, 90400, 90500,
+			10: { type: 'lockonCast' } // 90110, 90210, 90310, 90410, 90510
+		},
+		10: { // Elementalist Resurrection Cast
+			0: true // 100100, 100200, 100300, 100400, 100500
+		},
+		11: { // Elementalist Party Recall Cast
+			0: true // 110100, 110200
+		},
+		12: { // Elementalist PreResurrection Cast
+			0: true // 120100, 120200, 120300, 120400, 120500
+		},
+		13: { // Elementalist Critical Up Aura On
+			0: true, // 130100, 130200, 130300, 130400, 130500,
+			50: true // 130150, 130250, 130350, 130450, 130550
+		},
+		14: { // Elementalist Speed Up Aura On
+			0: true, // 140100, 140200, 140300, 140400, 140500,
+			50: true // 140150, 140250, 140350, 140450, 140550
+		},
+		15: { // Elementalist Hp Gain Aura On
+			0: true, // 150100, 150200, 150300, 150400, 150500, 150600,
+			50: true // 150150, 150250, 150350, 150450, 150550, 150650
+		},
+		16: { // Elementalist Mp Gain Aura On
+			0: true, // 160100, 160200, 160300, 160400, 160500,
+			50: true // 160150, 160250, 160350, 160450, 160550
+		},
+		17: { // Elementalist Short Teleport Cast
+			0: { noInterrupt: [17] } // 170100, 170200, 170300, 170400, 170500, 170600, 170700, 170800, 170900, 171000, 171100
+		},
+		18: { // Elementalist Set Heal Pack Cast
+			0: true // 180100, 180200, 180300, 180400, 180500, 180600, 180700, 180800, 180900, 181000, 181100, 181200, 181300, 181400, 181500
+		},
+		19: { // Elementalist MP Refresh Cast
+			0: true // 190100, 190200
+		},
+		20: { // Elementalist Haste Bless Cast
+			0: true // 200100, 200200
+		},
+		21: { // Elementalist Rising Attack Cast
+			0: true // 210100, 210200, 210300, 210400, 210500, 210600, 210700, 210800, 210900, 211000, 211100, 211200
+		},
+		22: { // Elementalist Set MP Pack Cast
+			0: true // 220100, 220200
+		},
+		23: { // Elementalist Rage of Earth Cast Metmorphic
+			0: { noInterrupt: [1, 2, 6, 17, 23] } // 230100, 230200, 230300, 230400, 230500, 230600, 230700, 230800, 230900, 231000, 231100, 231200, 231300
+		},
+		24: { // Elementalist Painful Shackle LockOn
+			0: { type: 'lockon' }, // 240100, 240200, 240300, 240400, 240500, 240600, 240700, 240800, 240900, 241000, 241100, 241200,
+			10: true // 240110, 240210, 240310, 240410, 240510, 240610, 240710, 240810, 240910, 241010, 241110, 241210
+		},
+		25: { // Elementalist Summon Elemental Aggro Cast
+			0: true // 250100, 250200, 250300, 250400, 250500, 250600, 250700, 250800, 250900, 251000, 251100, 251200, 251300, 251400, 251500, 251600, 251700, 251800, 251900
+		},
+		26: { // Elementalist Summon Elemental Attack Cast
+			0: true // 260100, 260200, 260300, 260400, 260500, 260600, 260700, 260800, 260900, 261000, 261100, 261200, 261300, 261400, 261500, 261600
+		},
+		27: { // Elementalist Summon Elemental Heal Cast
+			0: true // 270100, 270200, 270300, 270400, 270500, 270600, 270700, 270800, 270900, 271000, 271100, 271200, 271300, 271400, 271500, 271600
+		},
+		28: { // Elementalist Shackle Of Quicksand LockOn
+			0: { type: 'lockon' }, // 280100, 280200, 280300, 280400, 280500, 280600,
+			10: { type: 'lockonCast' } // 280110, 280210, 280310, 280410, 280510, 280610
+		},
+		29: { // Elementalist Dispell Cast
+			0: true // 290100, 290200, 290300, 290400, 290500, 290600
+		},
+		30: { // Elementalist Spirit Of Lassitude LockOn
+			0: { type: 'lockon' }, // 300100, 300200, 300300, 300400, 300500, 300600,
+			10: { type: 'lockonCast' } // 300110, 300210, 300310, 300410, 300510, 300610
+		},
+		31: { // Elementalist Spirit Of Confusion LockOn
+			0: { type: 'lockon' }, // 310100, 310200, 310300, 310400, 310500,
+			10: { type: 'lockonCast' } // 310110, 310210, 310310, 310410, 310510
+		},
+		32: { // Elementalist Shackle Of Stone LockOn
+			0: { type: 'lockon' }, // 320100, 320200, 320300, 320400, 320500, 320600,
+			10: { type: 'lockonCast' } // 320110, 320210, 320310, 320410, 320510, 320610
+		},
+		33: { // Elementalist Summon Elemental Hold Shooter Cast
+			0: true // 330100, 330200, 330300, 330400, 330500, 330600, 330700, 330800, 330900, 331000, 331100, 331200, 331300, 331400, 331500, 331600, 331700
+		},
+		34: { // Elementalist Summon Elemental Nuker Cast
+			0: true // 340100, 340200, 340300, 340400, 340500, 340600, 340700, 340800, 340900, 341000, 341100, 341200, 341300, 341400, 341500, 341600
+		},
+		35: { // Elementalist Command Elemental To Attack Cast
+			0: true // 350100
+		},
+		36: { // Elementalist Command Elemental To Follow Cast
+			0: true // 360100
+		},
+		37: { // Elementalist Summon Energies of Shock Cast
+			0: true // 370100, 370200, 370300, 370400, 370500
+		},
+		38: { // Elementalist Summon Energies of Restriction Cast
+			0: true // 380100, 380200
+		},
+		39: { // Elementalist Summon Energies of Quickness Cast
+			0: true // 390100, 390200
+		},
+		40: { // Elementalist Summon Energies of Willpower Cast
+			0: true // 400100, 400200
+		},
+		41: { // Elementalist Plague LockOn
+			0: { type: 'lockon' }, // 410100,
+			10: { type: 'lockonCast' } // 410110
+		},
+		42: { // Elementalist Mystic Orb Cast
+			0: { noInterrupt: [42] }, // 420100,
+			20: true // 420120
+		}
+	},
+	8: { // Soulless (Reaper)
+		'*': { consumeAbnormal: [10151020, 10151021, 10151022, 10151023, 10151040, 10151041, 10151042] },
+		1: { // Soulless ComboAttack Start
+			'*': { noInterrupt: [3, 4, 12, 20] },
+			0: { triggerAbnormal: { 10151020:2000 } }, // 10100, 10200, 10300,
+			1: { triggerAbnormal: { 10151020:2000 } }, // 10101, 10201, 10301,
+			2: { triggerAbnormal: { 10151021:2000 } }, // 10102, 10202, 10302,
+			3: { triggerAbnormal: { 10151022:2000 } }, // 10103, 10203, 10303,
+			4: { triggerAbnormal: { 10151023:2000 } }, // 10104, 10204, 10304,
+			5: true // 10105, 10205, 10305
+		},
+		3: { // Soulless ChainSmash, Double Shear
+			'*': { noInterrupt: ['1-0', '1-2', 3, 4, 12, 19, 20] },
+			0: true, // 30100, 30200, 30300,
+			30: true // 30130, 30230, 30330
+		},
+		4: { // Soulless ChainBlow Long
+			'*': { noInterrupt: [1, 4, 8, 9, 10, 11, '12-0', '12-1', 20] },
+			0: true, // 40100, 40200, 40300,
+			20: true, // 40120, 40220, 40320,
+			30: true // 40130, 40230, 40330
+		},
+		5: { // Soulless ChainSuperBlow Long
+			0: true, // 50100, 50200, 50300,
+			30: true // 50130, 50230, 50330
+		},
+		6: { // Soulless ChainBrandish Start
+			0: { noInterrupt: ['1-0', '1-2', 4, 12, 20] }, // 60100, 60200,
+			30: true, // 60130, 60230,
+			31: true, // 60131, 60231,
+			90: true // 60190, 60290
+		},
+		7: { // Soulless ChainBatter, Death Spiral
+			0: true, // 70100, 70200,
+			1: true, // 70101, 70201,
+			10: true // 70110, 70210
+		},
+		8: { // Soulless ChainBlade, Whipsaw
+			'*': { noInterrupt: [4, 5, 6, 8, 9, 11, 12, 20] },
+			0: true, // 80100, 80200,
+			30: true // 80130, 80230
+		},
+		9: { // Soulless ChainStrike, Smite
+			0: { noInterrupt: [1, 3, 4, 5, 6, 8, 9, 10, 11, 12, 20] }, // 90100,
+			30: true // 90130
+		},
+		10: { // Soulless ChainUppercut
+			'*': { noInterrupt: [19] },
+			0: true, // 100100, 100200,
+			30: true // 100130, 100230
+		},
+		11: { // Soulless ChainFlurry, shadow leash
+			'*': { noInterrupt: [19] },
+			0: { triggerAbnormal: { 10151040: 2000 } }, // 110100, 110200,
+			1: { triggerAbnormal: { 10151041: 2000 } }, // 110101, 110201,
+			2: { triggerAbnormal: { 10151042: 2000 } }, // 110102, 110202,
+			3: true, // 110103, 110203,
+			90: true // 110190, 110290
+		},
+		12: { // Soulless DarkExplosion, Shadow Burst
+			0: { noInterrupt: [1, 3, '4-0', '4-30', '4-40', '4-60', 5, 6, 8, 9, 10, 11, 20] }, // 120100, 120200,
+			1: true, // 120101, 120201,
+			30: true // 120130, 120230
+		},
+		13: { // Soulless DarkGrasp Cast
+			0: true, // 130100,
+			20: true, // 130120,
+			30: true // 130130
+		},
+		14: { // Soulless RisingAttack, Retal
+			0: true // 140100, 140200, 140300
+		},
+		15: { // Soulless CounterAttack Activate, Retribution
+			0: { fixedSpeed: true }, // 150100, 150200, 150300,
+			80: true // 150180, 150280, 150380
+		},
+		16: { // Soulless DescentOfDarkness
+			0: true // 160100
+		},
+		17: { // Soulless ReverseGravity
+			0: true, // 170100,
+			10: true // 170110
+		},
+		18: { // Soulless Hide In Darkness Start
+			0: true // 180100
+		},
+		20: { // Soulless ReverseCapture
+			0: true // 200100
+		},
+		40: { // Soulless InstantLeap
+			0: true, // 400100,
+			30: true // 400130
+		}
+	},
+	9: { // Engineer
+		'*': { consumeAbnormal: [10152010, 10152011] },
+		1: { // Engineer CannonShot Change
+			'*': { fixedSpeed: true, noInterrupt: [1], triggerAbnormal: { 10152011: 3100 } },
+			0: true, // 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200,
+			1: true, // 10101, 10201, 10301, 10401, 10501, 10601, 10701, 10801, 10901, 11001, 11101, 11201,
+			2: true, // 10102, 10202, 10302, 10402, 10502, 10602, 10702, 10802, 10902, 11002, 11102, 11202,
+			20: { explodeOnHit: true } // 10120, 10220, 10320, 10420, 10520, 10620, 10720, 10820, 10920, 11020, 11120, 11220
+		},
+		2: { // Engineer MortarShot RangeTarget
+			0: { type: 'lockon', fixedSpeed: true }, // 20100, 20200, 20300, 20400, 20500, 20600,
+			1: { type: 'lockonCast' }, // 20101, 20201, 20301, 20401, 20501, 20601,
+			20: true // 20120, 20220, 20320, 20420, 20520, 20620
+		},
+		3: { // Engineer BuckShot Change
+			'*': { noInterrupt: [3, 20] },
+			0: true, // 30100, 30200, 30300, 30400, 30500, 30600, 30700, 30800, 30900, 31000, 31100, 31200,
+			1: true, // 30101, 30201, 30301, 30401, 30501, 30601, 30701, 30801, 30901, 31001, 31101, 31201,
+			2: true, // 30102, 30202, 30302, 30402, 30502, 30602, 30702, 30802, 30902, 31002, 31102, 31202,
+			30: true // 30130, 30230, 30330, 30430, 30530, 30630, 30730, 30830, 30930, 31030, 31130, 31230
+		},
+		4: { // Engineer GunBrandish Change
+			'*': { noInterrupt: ['4-3', '4-4'] },
+			0: true, // 40100, 40200, 40300, 40400, 40500, 40600, 40700, 40800, 40900, 41000,
+			1: true, // 40101, 40201, 40301, 40401, 40501, 40601, 40701, 40801, 40901, 41001,
+			2: true, // 40102, 40202, 40302, 40402, 40502, 40602, 40702, 40802, 40902, 41002,
+			3: true, // 40103, 40203, 40303, 40403, 40503, 40603, 40703, 40803, 40903, 41003,
+			4: true, // 40104, 40204, 40304, 40404, 40504, 40604, 40704, 40804, 40904, 41004,
+			30: true // 40130, 40230, 40330, 40430, 40530, 40630, 40730, 40830, 40930, 41030
+		},
+		5: { // Engineer GatlingShot Start, Burst Fire
+			'*': { noInterrupt: ['9-0', '9-10', '9-20'] },
+			0: { stamina: 50 }, // 50100, 50200, 50300, 50400, 50500, 50600, 50700, 50800, 50900, 51000,
+			1: { stamina: 50 } // 50101, 50201, 50301, 50401, 50501, 50601, 50701, 50801, 50901, 51001
+		},
+		6: { // Engineer TimebombShot Change
+			'*': { fixedSpeed: true, triggerAbnormal: { 10152010: 3100, 10152084: 4100 } },
+			0: true, // 60100, 60200, 60300, 60400, 60500, 60600, 60700, 60800, 60900, 61000, 61100,
+			1: true, // 60101, 60201, 60301, 60401, 60501, 60601, 60701, 60801, 60901, 61001, 61101,
+			2: true, // 60102, 60202, 60302, 60402, 60502, 60602, 60702, 60802, 60902, 61002, 61102,
+			20: true, // 60120, 60220, 60320, 60420, 60520, 60620, 60720, 60820, 60920, 61020, 61120,
+			21: true, // 60121, 60221, 60321, 60421, 60521, 60621, 60721, 60821, 60921, 61021, 61121,
+			22: true // 60122, 60222, 60322, 60422, 60522, 60622, 60722, 60822, 60922, 61022, 61122
+		},
+		7: { // Engineer ArcaneShockShot Change
+			0: true, // 70100, 70200, 70300, 70400, 70500, 70600, 70700, 70800,
+			1: { fixedSpeed: true, noInterrupt: [7], triggerAbnormal: { 10152010: 3100 } }, // 70101, 70201, 70301, 70401, 70501, 70601, 70701, 70801,
+			2: { fixedSpeed: true, noInterrupt: [7], triggerAbnormal: { 10152010: 3100 } }, // 70102, 70202, 70302, 70402, 70502, 70602, 70702, 70802,
+			3: true, // 70103, 70203, 70303, 70403, 70503, 70603, 70703, 70803,
+			20: true, // 70120, 70220, 70320, 70420, 70520, 70620, 70720, 70820,
+			21: true, // 70121, 70221, 70321, 70421, 70521, 70621, 70721, 70821,
+			22: true // 70122, 70222, 70322, 70422, 70522, 70622, 70722, 70822
+		},
+		9: { // Engineer ArcaneMissileShot Charge
+			0: true, // 90100, 90200, 90300, 90400, 90500, 90600, 90700, 90800, 90900, 91000,
+			10: true, // 90110, 90210, 90310, 90410, 90510, 90610, 90710, 90810, 90910, 91010,
+			11: true, // 90111, 90211, 90311, 90411, 90511, 90611, 90711, 90811, 90911, 91011,
+			20: true, // 90120, 90220, 90320, 90420, 90520, 90620, 90720, 90820, 90920, 91020,
+			21: true, // 90121, 90221, 90321, 90421, 90521, 90621, 90721, 90821, 90921, 91021,
+			22: true, // 90122, 90222, 90322, 90422, 90522, 90622, 90722, 90822, 90922, 91022,
+			23: true, // 90123, 90223, 90323, 90423, 90523, 90623, 90723, 90823, 90923, 91023,
+			24: true, // 90124, 90224, 90324, 90424, 90524, 90624, 90724, 90824, 90924, 91024,
+			25: true // 90125, 90225, 90325, 90425, 90525, 90625, 90725, 90825, 90925, 91025
+		},
+		10: { // Engineer ArcaneGrenade Change
+			0: true, // 100100, 100200, 100300, 100400, 100500, 100600, 100700, 100800, 100900, 101000, 101100,
+			1: true, // 100101, 100201, 100301, 100401, 100501, 100601, 100701, 100801, 100901, 101001, 101101,
+			2: true, // 100102, 100202, 100302, 100402, 100502, 100602, 100702, 100802, 100902, 101002, 101102,
+			20: true, // 100120, 100220, 100320, 100420, 100520, 100620, 100720, 100820, 100920, 101020, 101120,
+			21: true, // 100121, 100221, 100321, 100421, 100521, 100621, 100721, 100821, 100921, 101021, 101121,
+			22: true, // 100122, 100222, 100322, 100422, 100522, 100622, 100722, 100822, 100922, 101022, 101122,
+			23: true, // 100123, 100223, 100323, 100423, 100523, 100623, 100723, 100823, 100923, 101023, 101123,
+			24: true, // 100124, 100224, 100324, 100424, 100524, 100624, 100724, 100824, 100924, 101024, 101124,
+			30: true // 100130, 100230, 100330, 100430, 100530, 100630, 100730, 100830, 100930, 101030, 101130
+		},
+		11: { // Engineer RocketJump Change
+			0: true, // 110100, 110200, 110300, 110400, 110500, 110600, 110700, 110800, 110900,
+			1: true, // 110101, 110201, 110301, 110401, 110501, 110601, 110701, 110801, 110901,
+			2: true, // 110102, 110202, 110302, 110402, 110502, 110602, 110702, 110802, 110902,
+			30: true, // 110130, 110230, 110330, 110430, 110530, 110630, 110730, 110830, 110930,
+			31: true // 110131, 110231, 110331, 110431, 110531, 110631, 110731, 110831, 110931
+		},
+		12: { // Engineer ElectricBall Projectile forBot
+			20: true // 120120, 120220, 120320, 120420, 120520, 120620, 120720
+		},
+		13: { // Engineer FlashCannon Change, Balders
+			'*': { noInterrupt: [13] },
+			0: { stamina: 1500 }, // 130100, 130200,
+			1: { stamina: 1500 }, // 130101, 130201,
+			2: { stamina: 1500 }, // 130102, 130202,
+			20: true, // 130120,
+			30: { stamina: 1500 } // 130130, 130230
+		},
+		15: { // Engineer Reload Change
+			'*': { fixedSpeed: true, noInterrupt: [15] },
+			0: true, // 150100, 150200, 150300, 150400, 150500, 150600, 150700, 150800, 150900,
+			1: true, // 150101, 150201, 150301, 150401, 150501, 150601, 150701, 150801, 150901,
+			2: true, // 150102, 150202, 150302, 150402, 150502, 150602, 150702, 150802, 150902,
+			30: true // 150130, 150230, 150330, 150430, 150530, 150630, 150730, 150830, 150930
+		},
+		18: { // Engineer SummonBot Dispenser Change
+			'*': { fixedSpeed: true },
+			0: true, // 180100, 180200, 180300, 180400, 180500, 180600, 180700,
+			1: true, // 180101, 180201, 180301, 180401, 180501, 180601, 180701,
+			2: true, // 180102, 180202, 180302, 180402, 180502, 180602, 180702,
+			20: true, // 180120, 180220, 180320, 180420, 180520, 180620, 180720,
+			21: true, // 180121, 180221, 180321, 180421, 180521, 180621, 180721,
+			22: true // 180122, 180222, 180322, 180422, 180522, 180622, 180722
+		},
+		19: { // Engineer SummonBot SentryTower Change
+			0: true, // 190100, 190200, 190300, 190400,
+			1: true, // 190101, 190201, 190301, 190401,
+			2: true, // 190102, 190202, 190302, 190402,
+			20: true, // 190120, 190220, 190320, 190420,
+			21: true, // 190121, 190221, 190321, 190421,
+			30: true // 190130, 190230, 190330, 190430
+		},
+		20: { // Engineer RisingAttack
+			0: true // 200100, 200200, 200300, 200400, 200500, 200600, 200700, 200800, 200900, 201000
+		},
+		21: { // Engineer CommandBot ElectricCounterFlow
+			0: true // 210100, 210200, 210300
+		},
+		22: { // Engineer CommandBot Suicide
+			0: true // 220100
+		},
+		23: { // Engineer CommandBotSwitch
+			0: true, // 230100,
+			1: true, // 230101,
+			2: true // 230102
+		},
+		40: { // Engineer Rolling OpportunityAcquisition
+			'*': { fixedSpeed: true, triggerAbnormal: { 10152010: 3100, 10152012: 3100, 10152354: 4000 }, forceClip: true },
+			0: true // 400100
+		}
+	}
+}

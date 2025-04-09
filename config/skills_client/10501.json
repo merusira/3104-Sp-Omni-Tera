@@ -1,0 +1,7867 @@
+{
+  "10501": {
+    "10100": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10101": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10102": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10103": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10200": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10201": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10202": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10203": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10300": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10301": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10302": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10303": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10400": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10401": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10402": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10403": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10500": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10501": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10502": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10503": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10600": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10601": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10602": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10603": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10700": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10701": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10702": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10703": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10800": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10801": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10802": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10803": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10900": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10901": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10902": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "10903": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11000": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11001": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11002": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11003": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11100": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11101": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11102": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11103": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11200": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11201": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11202": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11203": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11300": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11301": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11302": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11303": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11400": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11401": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11402": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11403": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11500": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 55,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11501": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11502": {
+      "category": [
+        1001,
+        11,
+        101,
+        9011,
+        10002,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "11503": {
+      "category": [
+        1001,
+        11,
+        130,
+        101,
+        9011,
+        10003,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 650,
+      "skillPendingType": "normal",
+      "distance": 60,
+      "abnormalChains": {
+        "101700": 31
+      }
+    },
+    "20100": {
+      "category": [
+        1002,
+        82,
+        148,
+        104,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 300,
+      "rearCancelStartTime": 900,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "20200": {
+      "category": [
+        1002,
+        82,
+        148,
+        104,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 300,
+      "rearCancelStartTime": 900,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "20300": {
+      "category": [
+        1002,
+        82,
+        148,
+        104,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 300,
+      "rearCancelStartTime": 900,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "30100": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "30200": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "30300": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "30400": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "30500": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "30600": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "30700": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "30800": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "30900": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "31000": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "31100": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "31200": {
+      "category": [
+        1003,
+        12,
+        550,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 64
+    },
+    "40100": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40130": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40200": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40230": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40300": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40330": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40400": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40430": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40500": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40530": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40600": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40630": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40700": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40730": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40800": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40830": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40900": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "40930": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41000": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41030": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41100": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41130": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41200": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41230": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41300": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41330": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41400": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41430": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41500": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "41530": {
+      "category": [
+        1004,
+        12,
+        550,
+        102,
+        112,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.4,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 205
+    },
+    "50100": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "50200": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "50300": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "50400": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "50500": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "50600": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "50700": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "50800": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "50900": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "51000": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100300": 31
+      }
+    },
+    "51100": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100301": 31
+      }
+    },
+    "51200": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100301": 31
+      }
+    },
+    "51300": {
+      "category": [
+        1005,
+        15,
+        105,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 235,
+      "abnormalChains": {
+        "100301": 31
+      }
+    },
+    "59100": {
+      "category": [
+        1035,
+        99,
+        147,
+        10000,
+        560,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 2300,
+      "skillPendingType": "normal",
+      "distance": 250
+    },
+    "60100": {
+      "category": [
+        1006,
+        17,
+        106,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 2600,
+      "skillPendingType": "normal",
+      "distance": 95
+    },
+    "60120": {
+      "category": [
+        1006,
+        17,
+        106,
+        9999
+      ],
+      "dcType": "projectile",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 2600,
+      "skillPendingType": "normal",
+      "distance": 500,
+      "abnormalChains": {
+        "10": 31
+      }
+    },
+    "60200": {
+      "category": [
+        1006,
+        17,
+        106,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 2600,
+      "skillPendingType": "normal",
+      "distance": 95
+    },
+    "60220": {
+      "category": [
+        1006,
+        17,
+        106,
+        9999
+      ],
+      "dcType": "projectile",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 1000,
+      "rearCancelStartTime": 2600,
+      "skillPendingType": "normal",
+      "distance": 500,
+      "abnormalChains": {
+        "10": 31
+      }
+    },
+    "70100": {
+      "category": [
+        1007,
+        19,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "200200": 31
+      }
+    },
+    "70200": {
+      "category": [
+        1007,
+        19,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "200200": 31
+      }
+    },
+    "80100": {
+      "category": [
+        1008,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100100": 31
+      }
+    },
+    "80150": {
+      "category": [
+        1008,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "80200": {
+      "category": [
+        1008,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100101": 31
+      }
+    },
+    "80250": {
+      "category": [
+        1008,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "80300": {
+      "category": [
+        1008,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100102": 31
+      }
+    },
+    "80350": {
+      "category": [
+        1008,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "80400": {
+      "category": [
+        1008,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100103": 31
+      }
+    },
+    "80450": {
+      "category": [
+        1008,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "80500": {
+      "category": [
+        1008,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100102": 31
+      }
+    },
+    "80550": {
+      "category": [
+        1008,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "80600": {
+      "category": [
+        1008,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100102": 31
+      }
+    },
+    "80650": {
+      "category": [
+        1008,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "90100": {
+      "category": [
+        1009,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100200": 31
+      }
+    },
+    "90150": {
+      "category": [
+        1009,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "90200": {
+      "category": [
+        1009,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100201": 31
+      }
+    },
+    "90250": {
+      "category": [
+        1009,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "90300": {
+      "category": [
+        1009,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100202": 31
+      }
+    },
+    "90350": {
+      "category": [
+        1009,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "90400": {
+      "category": [
+        1009,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100203": 31
+      }
+    },
+    "90450": {
+      "category": [
+        1009,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "90500": {
+      "category": [
+        1009,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100202": 31
+      }
+    },
+    "90550": {
+      "category": [
+        1009,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "90600": {
+      "category": [
+        1009,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100202": 31
+      }
+    },
+    "90650": {
+      "category": [
+        1009,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "100100": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "100200": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "100300": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "100400": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "100500": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "100600": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "100700": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "100800": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "100900": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "101000": {
+      "category": [
+        1010,
+        82,
+        12,
+        550,
+        148,
+        104,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "evade",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1600,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 150,
+      "abnormalChains": {
+        "100400": 31
+      }
+    },
+    "110100": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100500": 31
+      }
+    },
+    "110200": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100501": 31
+      }
+    },
+    "110300": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100502": 31
+      }
+    },
+    "110400": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100503": 31
+      }
+    },
+    "110500": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100504": 31
+      }
+    },
+    "110600": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100505": 31
+      }
+    },
+    "110700": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100506": 31
+      }
+    },
+    "110800": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100507": 31
+      }
+    },
+    "110900": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100508": 31
+      }
+    },
+    "111000": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100507": 31
+      }
+    },
+    "111100": {
+      "category": [
+        1011,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 370,
+      "abnormalChains": {
+        "100507": 31
+      }
+    },
+    "120100": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "120200": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "120300": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "120400": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "120500": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "120600": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "120700": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "120800": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "120900": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "121000": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "121100": {
+      "category": [
+        1012,
+        12,
+        550,
+        120,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 1400,
+      "skillPendingType": "normal",
+      "distance": 25
+    },
+    "130100": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "130200": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "130300": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "130400": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "130500": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "130600": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "130700": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "130800": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "130900": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "131000": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "131100": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "131200": {
+      "category": [
+        1013,
+        34,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "stand",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 700,
+      "skillPendingType": "disable",
+      "distance": 100,
+      "abnormalChains": {
+        "101": 31
+      }
+    },
+    "140100": {
+      "category": [
+        1014,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100600": 31
+      }
+    },
+    "140150": {
+      "category": [
+        1014,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "140200": {
+      "category": [
+        1014,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20,
+      "abnormalChains": {
+        "100600": 31
+      }
+    },
+    "140250": {
+      "category": [
+        1014,
+        18,
+        107,
+        10001,
+        9999
+      ],
+      "dcType": "switch",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 20
+    },
+    "150100": {
+      "category": [
+        1015,
+        31,
+        108,
+        10000,
+        9999
+      ],
+      "dcType": "notimeline",
+      "timeRate": 1.1,
+      "noWeapon": true,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "800700": 31
+      }
+    },
+    "150200": {
+      "category": [
+        1015,
+        31,
+        108,
+        10000,
+        9999
+      ],
+      "dcType": "notimeline",
+      "timeRate": 1.1,
+      "noWeapon": true,
+      "skillPendingType": "normal",
+      "distance": 50,
+      "abnormalChains": {
+        "800700": 31
+      }
+    },
+    "160100": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160101": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "160200": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160201": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "160300": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160301": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "160400": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160401": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "160500": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160501": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "160600": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160601": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "160700": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160701": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "160800": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160801": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "160900": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "160901": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "161000": {
+      "category": [
+        1016,
+        12,
+        550,
+        148,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "dash",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "normal",
+      "distance": 600
+    },
+    "161001": {
+      "category": [
+        1016,
+        12,
+        550,
+        111,
+        148,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 200,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 84
+    },
+    "170100": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "170200": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "170300": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "170400": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "170500": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "170600": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "170700": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "170800": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "170900": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "171000": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "171100": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "171200": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "171300": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "171400": {
+      "category": [
+        1017,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 100
+    },
+    "180100": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "180200": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "180300": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "180400": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "180500": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "180600": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "180700": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "180800": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "180900": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "181000": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "181100": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "181200": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "181300": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "181400": {
+      "category": [
+        1018,
+        12,
+        550,
+        110,
+        112,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 430,
+      "abnormalChains": {
+        "101200": 31
+      }
+    },
+    "190100": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190101": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "190200": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190201": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "190300": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190301": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "190400": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190401": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "190500": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190501": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "190600": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190601": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "190700": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190701": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "190800": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190801": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "190900": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "190901": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "191000": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "191001": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "191100": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "191101": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "191200": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "191201": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "191300": {
+      "category": [
+        1019,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 450,
+      "skillPendingType": "normal",
+      "distance": 49
+    },
+    "191301": {
+      "category": [
+        1019,
+        12,
+        550,
+        111,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "combo",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74
+    },
+    "200100": {
+      "category": [
+        1020,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1,
+      "noWeapon": false,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 3000,
+      "distance": 30,
+      "abnormalChains": {
+        "100800": 31
+      }
+    },
+    "200200": {
+      "category": [
+        1020,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1,
+      "noWeapon": false,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 3000,
+      "distance": 30,
+      "abnormalChains": {
+        "100801": 31
+      }
+    },
+    "200300": {
+      "category": [
+        1020,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1,
+      "noWeapon": false,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 3000,
+      "distance": 30,
+      "abnormalChains": {
+        "100800": 31
+      }
+    },
+    "200400": {
+      "category": [
+        1020,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1,
+      "noWeapon": false,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 3000,
+      "distance": 30,
+      "abnormalChains": {
+        "100800": 31
+      }
+    },
+    "210100": {
+      "category": [
+        1021,
+        14,
+        105,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74,
+      "abnormalChains": {
+        "100900": 31
+      }
+    },
+    "210200": {
+      "category": [
+        1021,
+        14,
+        105,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74,
+      "abnormalChains": {
+        "100901": 31
+      }
+    },
+    "210300": {
+      "category": [
+        1021,
+        14,
+        105,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74,
+      "abnormalChains": {
+        "100301": 31
+      }
+    },
+    "210400": {
+      "category": [
+        1021,
+        14,
+        105,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "distance": 74,
+      "abnormalChains": {
+        "100301": 31
+      }
+    },
+    "220100": {
+      "category": [
+        1022,
+        22,
+        26,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 250,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "220200": {
+      "category": [
+        1022,
+        22,
+        26,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 375,
+      "abnormalChains": {
+        "101001": 31
+      }
+    },
+    "220300": {
+      "category": [
+        1022,
+        22,
+        26,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "220400": {
+      "category": [
+        1022,
+        22,
+        26,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "230100": {
+      "category": [
+        1023,
+        16,
+        106,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 314,
+      "abnormalChains": {
+        "101100": 31
+      }
+    },
+    "230200": {
+      "category": [
+        1023,
+        16,
+        106,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 400,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "distance": 314,
+      "abnormalChains": {
+        "101101": 31
+      }
+    },
+    "240100": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "240200": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "240300": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "240400": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "240500": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "240600": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "240700": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "240800": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "240900": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "241000": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "241100": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "241200": {
+      "category": [
+        1024,
+        32,
+        98,
+        109,
+        619,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 500,
+      "skillPendingType": "normal",
+      "length": 1500,
+      "distance": 20
+    },
+    "250100": {
+      "category": [
+        1025,
+        35,
+        144,
+        109,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "length": 3000,
+      "distance": 600
+    },
+    "260100": {
+      "category": [
+        1026,
+        35,
+        144,
+        109,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 350,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "normal",
+      "length": 3000,
+      "distance": 200
+    },
+    "270100": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "270200": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "270300": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "270400": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "270500": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "270600": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "270700": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "270800": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "270900": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "271000": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "271100": {
+      "category": [
+        1027,
+        12,
+        550,
+        110,
+        99,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.25,
+      "noWeapon": false,
+      "pendingStartTime": 900,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "normal",
+      "distance": 400,
+      "abnormalChains": {
+        "101400": 31
+      }
+    },
+    "280100": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280130": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280200": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280230": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280300": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280330": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280400": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280430": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280500": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280530": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280600": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280630": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280700": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280730": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280800": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280830": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280900": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "280930": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "281000": {
+      "category": [
+        1028,
+        13,
+        550,
+        111,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "281030": {
+      "category": [
+        1028,
+        12,
+        550,
+        111,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 800,
+      "rearCancelStartTime": 1000,
+      "skillPendingType": "immediateCancel",
+      "distance": 250,
+      "abnormalChains": {
+        "101300": 31
+      }
+    },
+    "290100": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290130": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290200": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290230": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290300": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290330": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290400": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290430": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290500": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290530": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290600": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290630": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290700": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290730": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290800": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290830": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290900": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "290930": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "291000": {
+      "category": [
+        1029,
+        13,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.6,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "291030": {
+      "category": [
+        1029,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.2,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 250
+    },
+    "300100": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 75
+    },
+    "300130": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        131,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.3,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 75
+    },
+    "300200": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 75
+    },
+    "300230": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        131,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.3,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 75
+    },
+    "300300": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 70
+    },
+    "300330": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        131,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.3,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 70
+    },
+    "300400": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 70
+    },
+    "300430": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        131,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.3,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 70
+    },
+    "300500": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 70
+    },
+    "300530": {
+      "category": [
+        1030,
+        12,
+        550,
+        102,
+        131,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.3,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 70
+    },
+    "310100": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310130": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310200": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310230": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310300": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310330": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310400": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310430": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310500": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310530": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310600": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310630": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310700": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310730": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "310800": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "101500": 31
+      }
+    },
+    "310830": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "101500": 31
+      }
+    },
+    "310900": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "101500": 31
+      }
+    },
+    "310930": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "101500": 31
+      }
+    },
+    "311000": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "101500": 31
+      }
+    },
+    "311030": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "101500": 31
+      }
+    },
+    "311100": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "311130": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "311200": {
+      "category": [
+        1031,
+        12,
+        550,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 0.85,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "311230": {
+      "category": [
+        1031,
+        12,
+        550,
+        131,
+        102,
+        9011,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.15,
+      "noWeapon": false,
+      "skillPendingType": "immediateCancel",
+      "distance": 210,
+      "abnormalChains": {
+        "0": 31
+      }
+    },
+    "320100": {
+      "category": [
+        1032,
+        81,
+        103,
+        147,
+        148,
+        113,
+        10000,
+        9999
+      ],
+      "dcType": "defence",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "rearCancelStartTime": 60000,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 125
+    },
+    "320200": {
+      "category": [
+        1032,
+        81,
+        103,
+        147,
+        148,
+        113,
+        10000,
+        9999
+      ],
+      "dcType": "defence",
+      "timeRate": 1.1,
+      "noWeapon": false,
+      "rearCancelStartTime": 60000,
+      "skillPendingType": "rearCancelOnly",
+      "distance": 125
+    },
+    "330100": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "330200": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "330300": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "330400": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "330500": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "330600": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "330700": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "330800": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "330900": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "331000": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "331100": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "331200": {
+      "category": [
+        1033,
+        22,
+        26,
+        147,
+        102,
+        9011,
+        10000,
+        9999
+      ],
+      "dcType": "catchBack",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 500,
+      "rearCancelStartTime": 600,
+      "skillPendingType": "immediateCancel",
+      "distance": 375,
+      "abnormalChains": {
+        "101000": 31
+      }
+    },
+    "340100": {
+      "category": [
+        1034,
+        22,
+        102,
+        9012,
+        10000,
+        9999
+      ],
+      "dcType": "connect",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 999,
+      "rearCancelStartTime": 1502,
+      "skillPendingType": "immediateCancel",
+      "distance": 50,
+      "abnormalChains": {
+        "101801": 31,
+        "101900": 31
+      }
+    },
+    "340130": {
+      "category": [
+        1034,
+        22,
+        102,
+        9012,
+        10001,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1,
+      "noWeapon": false,
+      "pendingStartTime": 300,
+      "rearCancelStartTime": 300,
+      "skillPendingType": "immediateCancel",
+      "distance": 600
+    },
+    "9010100": {
+      "category": [
+        905001,
+        91,
+        104,
+        10000,
+        9999
+      ],
+      "dcType": "normal",
+      "timeRate": 1.1,
+      "noWeapon": true,
+      "skillPendingType": "normal",
+      "length": 6033,
+      "distance": 100
+    },
+    "9020100": {
+      "category": [
+        905002,
+        18,
+        107,
+        10000,
+        9999
+      ],
+      "dcType": "movingSkill",
+      "timeRate": 1,
+      "noWeapon": false,
+      "rearCancelStartTime": 400,
+      "skillPendingType": "normal",
+      "length": 3000,
+      "distance": 30,
+      "abnormalChains": {
+        "90400": 31
+      }
+    }
+  }
+}
