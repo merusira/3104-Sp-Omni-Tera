@@ -8,7 +8,14 @@
 try {
     # Get list of files, excluding the current script and manifest.json
     $files = Get-ChildItem -Path . -File -Recurse | Where-Object {
-        $_.Name -ne "manifest.json" -and $_.Name -ne "generate_manifest.ps1"
+        $_.Name -ne "manifest.json" -and
+        $_.Name -ne "generate_manifest.ps1" -and
+        $_.Name -notlike "*package-lock*" -and
+        $_.Name -ne ".gitignore" -and
+		$_.Name -ne "config.json" -and
+        $_.Extension -ne ".log" -and
+        $_.FullName.Replace("\","/") -notmatch "/\." -and
+        $_.FullName.Replace("\","/") -notmatch "node_modules/electron"
     }
 
     # Create an ordered dictionary to store the file paths and hashes
