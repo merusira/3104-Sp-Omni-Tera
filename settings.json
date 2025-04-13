@@ -15,9 +15,9 @@
             "defendSuccessStrict": true
         },
         "ping": {
-            "interval": 5000,
-            "timeout": 30000,
-            "maxHistory": 20
+            "interval": 8000,
+            "timeout": 33000,
+            "maxHistory": 14
         },
         "debug": {
             "skills": false,
