@@ -151,4 +151,8 @@ This module conflicts with several other modules that affect skill usage. Do not
 
 ## Credits
 
-Many have contributed to this module over the years. This version is a fork of Pinkie Pie's original Skill Prediction for Caali's tera-proxy. Then many have modified to be compatible with TERA Toolbox. THis final version was modded to work best with Tera patch 31.04, on private server Omni, by merusira.
+Many have contributed to this module over the years. This version is a fork of Pinkie Pie's original Skill Prediction for Caali's tera-proxy.
+Then many have modified to be compatible with TERA Toolbox.
+This final version was modded to work with Tera patch 31.04, on private server Omni, by merusira and Kasane.
+
+## FIN

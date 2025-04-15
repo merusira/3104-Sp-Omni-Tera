@@ -1,7 +1,7 @@
 {
-    "disableAutoUpdate": true,
+    "disableAutoUpdate": false,
     "name": "3104-Sp-Omni-Tera",
-    "author": "<font color='#297229'>Pinkie Pie / merusira / many others</font>",
+    "author": "<font color='#297229'>Pinkie Pie / many others</font>",
     "description": "Simulates skills client-side, eliminating ping-based delays and animation lock.",
     "options": {
         "guiName": "<font color='#7558cd'>3104 Skill-Prediction for Omni Tera</font>",
@@ -12,5 +12,5 @@
     },
     "servers": ["https://raw.githubusercontent.com/merusira/3104-Sp-Omni-Tera/master/"],
     "conflicts": ["aa-zsync","cooldowns","cooldowns-master","fastfire","fastfire-master","fast-fire","fast-fire-master","lockons","lockons-master","lockons-light","lockons-light-master","ping-compensation","ping-remover","skill-prediction-master","skill-prediction-plus"],
-	"version": "<font color='#800000'>1.0.3</font>"
+	"version": "<font color='#800000'>1.0.4</font>"
 }
