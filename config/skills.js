@@ -1569,7 +1569,7 @@ module.exports = {
 			20: true // 120120, 120220, 120320, 120420, 120520, 120620, 120720
 		},
 		13: { // Balder's Vengeance 
-			'*': '*': {
+			'*': {
 				noInterrupt: [13],
 				moveDir: 1,
 				noRetry: true
