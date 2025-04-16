@@ -1221,7 +1221,7 @@ module.exports = {
 		},
 		6: { // Death Spiral 
 			0: { noInterrupt: ['1-0', '1-2', 4, 12, 20],
-{				chains: {
+				chains: {
 					1: 30,
 					3: 30,
 					4: 30,
